@@ -5,7 +5,7 @@ Occasionally, you'll find VNs that either have compatibility issues, or won't wo
 
 ## Requirements
 	
-Virtualization Software (e.g. QEMU or Oracle VM VirtualBox) & AMD-V/VT-x enabled
+Virtualization Software (e.g. QEMU or Oracle VM VirtualBox) & AMD-V/VT-x enabled, or hardware capable of running XP
 
 Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs are highly recommended.
 
@@ -39,7 +39,7 @@ Congratulations, you now have a VN-ready XP install!
 
 [Supermium](https://www.win32subsystem.live/supermium/) - Modern Chromium on Windows XP
 
-[MyPal](https://github.com/Feodor2/Mypal68/releases/latest) - Modern browser based off Firefox 68, less resource intensive than Supermium & recommended for PCs <2GB RAM
+[MyPal](https://github.com/Feodor2/Mypal68/releases/latest) - Modern browser based off Firefox 68, less resource intensive than Supermium & recommended for PCs <1GB RAM
 
 ## Using ITHVNR for text hooking
 [ITHVNR](https://drive.proton.me/urls/C2QY84DYX0#vRIWAHdwnAb0) is an XP-supported alternative of Texthooker. Install 
@@ -57,11 +57,13 @@ From now on, you may either use shared clipboards (if your virtualization softwa
 
 
 
-
+# Here's what both methods look like, in action
 
 ![Image](img/winxp1.jpg)
 ![Image](img/winxp2.jpg)
+![Image](img/winxp3.png)
 
 <h3>Found this useful? Consider supporting me on Patreon!</h3>   
 
 [:fontawesome-brands-patreon: Support me on Patreon](https://www.patreon.com/shoui){: .md-button }
+
