@@ -61,6 +61,7 @@ Sorry to overwhelm you with information, but also check out my grammar dictionar
 - [Crunchyroll (free with ads)](https://www.crunchyroll.com/) - some j-drama on here.     
 - [Minidrama](https://minidrama.net/j-drama/) - MKV downloads for J-drama.  
 - [Raredoramas](https://raredoramas.info/) - site for collecting rare J-Drama
+- [IPTV GitHub Repo - japanese](https://github.com/luongz/iptv-jp) - watch Japanese TV channels with a video player like VLC.
 - [Japanese Live TV Streams](https://aqstream.com/jp) - Good speed but small collection. TBS and TV Tokyo work great.
 - [Japanese Live TV Streams 2](https://www.xhzb.tw/en/list.php?tid=94) - Not all channels work.
 - [Japanese Live TV Streams 3](https://tver.jp/)- use a [VPN](https://learnjapanese.moe/resources/#vpns-japan-location-specific).
@@ -158,8 +159,9 @@ Japanese video game immersion tip: The PlayStation Vita is easy to hack and get 
 ### Sentence Search
 - [Immersion Kit](https://www.immersionkit.com/) - Search sentences from anime, games etc. with translation. Made by Game Gengo. 
 - [Youglish](https://youglish.com/japanese) - Sentences sourced from YouTube video subtitles. This is a great tool to improve your pronunciation, as the words will be said by native speakers speaking naturally. 
+- [Filmot](https://filmot.com) - Like Youglish but with even bigger coverage. For best results, filter for manual Japanese subtitles and put quotes around your search term. [Example query](https://filmot.com/search/%22%E8%AA%AD%E3%82%80%22/1?lang=ja&searchManualSubs=1&gridView=1&).
 - [Massif](https://massif.la/) - Uses syosetsu novels as its source.  
-- [Yourei.jp](http://yourei.jp/) "The World's Largest Japanese Sentence Search Engine" 
+- [Yourei.jp](https://web.archive.org/web/20250729193937/https://yourei.jp/) "The World's Largest Japanese Sentence Search Engine" 
 - [Twitter](https://twitter.com/search?q=%E6%A4%9C%E7%B4%A2%E7%B5%90%E6%9E%9C&f=top) - You might need to be logged in to use this. 
 - [SentenceSearch](https://sentencesearch.neocities.org/) - Sentences sourced from multiple learning resources. You can also grab audio for the sentences here!    
 - [BritVSJapan Repo](https://github.com/Matchoo95/JP-Subtitles)- (Use the Repository search feature)  
@@ -190,12 +192,12 @@ Japanese video game immersion tip: The PlayStation Vita is easy to hack and get 
 
 ### Dictionaries
 
-#### Yomichan
+#### Yomitan
 Yomichan, a browser add-on that allows you to look up Japanese words easily. 
 
-- [Get Yomichan](https://foosoft.net/projects/yomichan/) - A pop up dictionary. You MUST have this. This is an absolute must have. It is extremely useful for reading.
+- [Get Yomitan](https://yomitan.wiki/) - A pop up dictionary. You MUST have this. This is an absolute must have. It is extremely useful for reading.
 - Tutorial: [click here](https://learnjapanese.moe/yomichan)  
-- [shoui Yomichan Dictionaries Collection](https://learnjapanese.link/dictionaries)  
+- [shoui Yomitan Dictionaries Collection](https://learnjapanese.link/dictionaries)  
 - [Marv's miscellaneous dictionaries](https://github.com/MarvNC/yomichan-dictionaries)  
 - Every dictionary explained in the text file.  
 
@@ -216,7 +218,7 @@ See Applications (Mobile) section for mobile apps.
 #### MDict (MDX)
 Contains the most up-to-date dictionaries such as 新明解国語辞典 第七版 (Shinmeikai 7th Edition) and 大辞林 第三版 (Daijirin 3rd edition)   
 
-- **[Epistularum's Tidy MDX Collection (Recommended)](https://nyaa.si/view/1634529)** - You can selectively download. 国語 dicts are the ones you want.
+- **[Epistularum's Tidy MDX Collection v2.0 (Recommended)](https://nyaa.si/view/2024101)** - You can selectively download. 国語 dicts are the ones you want.
 - [shoui MDX Collection (Japanese)](https://drive.google.com/file/d/1UMvC1eMZmFAtEHKO6yo3ZFB7CJsKr_3w/view?usp=sharing)    
 See Applications section for an MDict (MDX) reader.   
 
@@ -235,8 +237,10 @@ See Applications section for an EPWING reader.
 
 ### Applications (Desktop)
 
-#### Manga Tools & OCRs
-
+#### Manga tools, OCR & look up tools
+- [Agent](https://github.com/0xDC00/agent) - extensible script-based textractor that can be made to work with any video game / emulator. Requires manually made scripts in order to work (lots are available in the Agent scripts repository)
+- [GameSentenceMiner](https://github.com/bpwhelan/GameSentenceMiner) - tool to make mining from video games/VNs extremely easy. Works with Agent/Textractor, but also has it's own OCR for clean output without a hook.
+- [meikipop](https://github.com/rtr46/meikipop) -  ocr based japanese popup dictionary - makes it easy to lookup words in manga, games, images. doesn't require any other tools or setup to work, but is not recommended for mining/srs integration
 - [Manga-OCR](https://github.com/kha-white/manga-ocr) - new program that makes looking words up in manga easier
 - [OCR Reader](https://github.com/kotcrab/ocr-reader) - new program made to make reading physical novel scans easier.  
 - [Poricom Manga OCR](https://github.com/kha-white/manga-ocr) - GUI for manga-ocr
@@ -248,6 +252,8 @@ See Applications section for an EPWING reader.
 
 #### Visual Novel Tools
 - [Textractor](https://github.com/Artikash/Textractor/releases) - for copying text from visual novels. 
+- [JL](https://github.com/rampaa/JL) - Yomitan/extractor/clipboard inserter alternative that does not require a browser. 
+- [Magpie](https://github.com/Blinue/Magpie) - Seamless fullscreen for visual novels on Windows. No need for exclusive fullscreen!
 
 #### Other Tools
 - **[※ Anki (Windows, Mac and Linux)](https://apps.ankiweb.net/)** - Spaced repetition flashcard program. A must have.    
@@ -265,8 +271,9 @@ It is tricky to use at first. So please see the Mining section for guides on how
 - [Akebi](https://play.google.com/store/apps/details?id=com.craxic.akebifree) - Bilingual dictionary for Android based on the JMdict project, has cool features such as auto-correction and AnkiDroid integration.  
 - [Takoboto](https://play.google.com/store/apps/details?id=jp.takoboto) - Bilingual dictionary for Android based on the JMdict project.  
 - [EBPocket Basic](https://play.google.com/store/apps/details?id=info.ebstudio.ebpocketfree) - this is an EPWING, Stardict and MDX dictionary reader, useful for monolingual dictionaries.  
-- [EBPocket Professional APK](https://cdn.discordapp.com/attachments/813105334763126814/843591036831793172/info.ebstudio.ebpocket.apk) - APK of the full vesion of EBPocket.  
-- **[※ jidoujisho](https://github.com/lrorpilla/jidoujisho) - A mobile video player, reader assistant and card creation toolkit tailored for mobile language learners.**  
+- [EBPocket Professional APK](https://cdn.discordapp.com/attachments/813105334763126814/843591036831793172/info.ebstudio.ebpocket.apk) - APK of the full vesion of EBPocket. 
+- **[※ Microsoft Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary&hl=en)** - Fastest browser on Android with full Edge extension support. Enable extensions in developer options. This is the best browser to use for Yomitan on Android. 
+- **[※ jidoujisho](https://github.com/lrorpilla/jidoujisho)** - A mobile video player, reader assistant and card creation toolkit tailored for mobile language learners.  
 - **[※ Typhon Reader](https://play.google.com/store/apps/details?id=net.zorgblub.typhon&hl=ja)** - An EPUB reader for Android that lets you look up a word with one tap. Also supports EPWING monolingual dictionaries.  Does not work correctly on newer phones. 
 - [Typhon改](https://github.com/dajimenezja/typhon/releases) - Fork of Typhon Reader made to work with newer devices.  
 - [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=ja&gl=US) - Chromium based browser with extension support. You can use Yomichan on this.  
@@ -334,7 +341,7 @@ Useful for stuff like visual novels and manga you may download.
 
 - **[※ - ProtonVPN](https://protonvpn.com/)** - High quality Japanese VPN servers. Works on all Japanese streaming sites. Privacy friendly. 
 - [Mullvad](https://mullvad.net/en/) - You can trust this the most if you care a lot about privacy.  
-- [NordVPN](https://nordvpn.com/nordvpn-site/) - confirmed to work on Japanese streaming services.   
+- [NordVPN](https://nordvpn.com/nordvpn-site/) - confirmed to work on Japanese streaming services, cheapest VPN.   
 
 #### Premium Cracks/Cheats/Accounts  
 
@@ -358,3 +365,4 @@ Useful for stuff like visual novels and manga you may download.
 
 - [Why You Still Don't Understand Your Target Language](https://youtu.be/_LIz-Wbt4us) - Great video for getting motivated to immerse more. 
 - [Dogen Japanese Phonetics](http://www.youtube.com/playlist?list=PLeK-ilb1gk6md2oCbjPh4Rl0lnXXOV22P) - For people interested in pitch accent and the like.   
+
