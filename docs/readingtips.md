@@ -11,9 +11,7 @@ This article aims to give you tips and talk about worries that you may have when
 
 ### I am JUST starting out, what should I do?  
 
-Just starting out = don't know Japanese? See [UsagiSpoon](/routine).   
-
-Noob friendly reading practice = anime with Japanese subtitles, it's described in [UsagiSpoon](/routine)  
+Just starting out = don't know Japanese? See [Japanese Guide](/guide).   
 
 Or maybe just starting out = "I have been learning Japanese for a while with [x] method, and I want to start reading for real! What should I do?"  
 
@@ -52,13 +50,12 @@ Read the novel after you watch the anime, or even while watching the anime. And 
 Anyway, this is obviously a God tier reading strategy because, by watching the anime, you have given context to the text on the page, which translates into i+1 Krashen approved effective language learning gains, and the light novel will have multiple volumes, which is great for learners because getting used to one author's writing style is easier than reading a different author every time.  
 
 
-### Yomichan, Itazuraneko, EPUBs+ッツ Reader  
+### Yomitan, EPUBs + ッツ Reader  
 
 The holy trinity of Japanese learning (for novel enjoyers).  
 
-- Set up Yomichan [here](/yomichan)  
-- Itazuraneko in [Resources](/resources)  
-- EPUBs... many ways you can get them. ([Itazuraneko ebook list](https://itazuraneko.neocities.org/library/shousetu/shousetulist), Kindle 1.19 for Windows+[UnpackKindleS](https://github.com/Aeroblast/UnpackKindleS/releases), [PeepoHappyBooks](https://nyaa.si/view/1350523))  
+- Set up Yomitan [here](/yomichan)  
+- EPUBs- many ways you can get them. Anna's Archive, [PeepoHappyBooks](https://nyaa.si/view/1350523)) etc.  
 - [ッツ Reader](https://reader.ttsu.app/manage)  
 
 ### Manga
@@ -117,7 +114,7 @@ Honestly grammar study is very useful for reading.
 
 If you haven't studied a lot of grammar and don't know all JLPT N5, N4, N3, N2 and N1 grammar points, then I highly recommend you study them. But I don't mean this to say "study JLPT grammar before reading." I mean, "study JLPT grammar to improve your reading, which you should be doing, probably right about now"  
 
-I want you to watch [Cure Dolly's playlist](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (your basic fundamentals) then study JLPT grammar with [medamayaki's JLPT grammar deck](https://cdn.discordapp.com/attachments/778430038159655012/972368473751703572/Nihongo-Kyoshi-complete.apkg).  
+I want you to watch [Cure Dolly's playlist](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (your basic fundamentals) then study JLPT grammar with [medamayaki's JLPT grammar deck](https://drive.google.com/file/d/1tDBaabwgZMO8nxkcwcw4qBXayuk_513T/view?usp=sharing).  
 
 Listen, I don't care if JLPT grammar is not "actually grammar."  
 
