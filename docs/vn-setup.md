@@ -33,7 +33,7 @@ Once you have acquired a visual novel, please select your platform below.
 
 <h2>Legacy</h2>  
 
-[:material-microsoft-windows-classic: Windows XP VM](/vn-winxp/){: .md-button } 
+[:material-microsoft-windows-classic: Windows XP](/vn-winxp/){: .md-button } 
 
 
  
