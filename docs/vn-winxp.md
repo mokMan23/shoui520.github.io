@@ -4,7 +4,7 @@ Occasionally, you'll find VNs that either have compatibility issues, or won't wo
 !!! failure "This guide only covers Windows XP." 
 	If you're installing XP through a hypervisor (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation. Additionally, if you're installing XP with an SSD, please note that XP supports neither Alignment nor TRIM, which will shorten the lifespan of your drive.
 
-!!! abstract "If you already have XP installed:" 
+??? abstract "If you already have XP installed:" 
 	1. Insert a Windows XP Installation CD.
 	2. Press ++windows+r++
 	3. Type`intl.cpl`, then press ++enter++
