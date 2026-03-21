@@ -1,9 +1,11 @@
 # Running Old Visual Novels on Windows XP
 Occasionally, you'll find VNs that either have compatibility issues, or won't work at all in modern versions of Windows or Wine. This is where a Windows XP VM comes in handy.
 
-!!! failure "This guide only covers" Windows XP. If you're installing XP through a hypervisor (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation.
+!!! failure "This guide only covers Windows XP." 
+	If you're installing XP through a hypervisor (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation.
 
-!!! tip "If you already have XP installed:" Insert a Windows XP Installation CD, press ++windows+r++, type`intl.cpl`, then press ++enter++. Follow Step 2, then restart. 
+??? tip "If you already have XP installed:" 
+	Insert a Windows XP Installation CD, press ++windows+r++, type`intl.cpl`, then press ++enter++. Follow Step 2, then restart. 
 
 ## Requirements
 	
@@ -13,7 +15,8 @@ Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs a
 
 ## Setup
 
-!!! tip "At least 512MB is recommended for a basic XP SP3 install, 1-2 GB for Yomitan & web browsing." More than 2GB is unnecessary for XP, and any other 32-bit OS. **If you connect your machine to the Internet, [updating](https://legacyupdate.net/) is HIGHLY recommended.**
+??? tip "At least 512MB is recommended for a basic XP SP3 install, 1-2 GB for Yomitan & web browsing." 
+More than 2GB is unnecessary for XP, and any other 32-bit OS. **If you connect your machine to the Internet, [updating](https://legacyupdate.net/) is HIGHLY recommended.**
 
 1. You will be greeted with a blue installation screen. Follow the instructions until you're asked to format your drive. Choose NTFS ("Quick" format, if it's available) & wait until your system reboots.
 2. During the graphical phase of installation, you'll see `Regional and Language Options`. When this window appears, click `Customize`. In the window that pops up, click on the `Languages` tab on the top left and check `Install files for East Asian Languages`. Click `OK` and click on the `Regional Options` tab. Set `Standards and Formats` to `Japanese`, and `Location` to `Japan`.  Lastly, click on the `Advanced` tab and change `Language for non-Unicode Programs` to `Japanese`. Click `OK`, and wait for the files to install. 
