@@ -20,13 +20,10 @@ Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs a
 
 !!! tip "At least 512MB is recommended for a basic Service Pack 3 install, 1-2 GB for Yomitan & web browsing." 
 	More than 2GB is unnecessary for XP, and any other 32-bit OS, since no program will be able to use more than 2 GB. **If you connect your machine to the Internet, [updating](https://legacyupdate.net/) is HIGHLY recommended.**
+	Some VNs also check your formats, location, and time zone as a method of region-locking. A non-Japanese locale breaks text in VNs, showing garbage instead. 
 
 1. You will be greeted with a blue installation screen. Follow the instructions until you're asked to format your drive. Choose NTFS ("Quick" format, if it's available) & wait until your system reboots.
 2. During the graphical phase of installation, you'll see `Regional and Language Options`. When this window appears, click `Customize`. In the window that pops up, click on the `Languages` tab on the top left and check `Install files for East Asian Languages`. Click `OK` and click on the `Regional Options` tab. Set `Standards and Formats` to `Japanese`, and `Location` to `Japan`.  Lastly, click on the `Advanced` tab and change `Language for non-Unicode Programs` to `Japanese`. Click `OK`, and wait for the files to install. 
-
-!!! tip "Some VNs check your format, location, and time zone as a method of region-locking." 
-	A non-Japanese locale breaks text in VNs, showing garbage instead. 
-
 3. Enter your Name, Company (can be anything), and Product Key.
 4. Change your `Time Zone` to `(GMT +9:00) Osaka, Sapporo, Tokyo`.
 
@@ -36,13 +33,13 @@ Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs a
 
 	6.1. If the OOBE detects your Network, you'll be asked about how your network is configured and whether you want to activate Windows, if applicable. Select `Yes, this computer will connect through a local area network or home network` and `No, remind me every few days` (if your copy of XP requires activation), as online activation is broken. Click `Next`. Fill in `Your Name` (the Administrator account) and other users' names as necessary, click `Next`, then `Finish`.
 
-6. Wait until the welcome screen shows. Nostalgic, isn't it?
-7. (Optional) To get rid of the annoying "Your PC may be at risk" balloon, click on the red X shield on your Taskbar, then click `Recommendations...` under `Virus Protection`. Check `I have an antivirus program that I'll monitor myself` and click OK.
+7. Wait until the welcome screen shows. Nostalgic, isn't it?
+8. (Optional) To get rid of the annoying "Your PC may be at risk" balloon, click on the red X shield on your Taskbar, then click `Recommendations...` under `Virus Protection`. Check `I have an antivirus program that I'll monitor myself` and click OK.
 Congratulations, you now have a VN-ready XP install!
 ## Additional Software
 [MacType](https://github.com/snowie2000/mactype/releases/download/2019.1-beta6/MacTypeInstaller_2019.1-beta6.exe) - Fix pixelated CJK font. Use registry mode. :slight_smile:  
 
-[xp_activate32](https://archive.org/download/xp_activate32_202305/xp_activate32.zip) - Activates XP through Phone Activation
+[xp_activate32](https://archive.org/download/xp_activate32_202305/xp_activate32.zip) - Activates XP through Phone Activation, if required
  
 [Supermium](https://www.win32subsystem.live/supermium/) - Modern Chromium on Windows XP
 
