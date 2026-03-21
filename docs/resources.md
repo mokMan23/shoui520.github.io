@@ -74,11 +74,14 @@ Also check out the grammar dictionaries for Yomitan in my dictionary collection.
 ### Anime
 
 - [Nyaa.si](https://nyaa.si/?q=&f=0&c=1_4) - torrent tracker with raw anime, this is the best place to get anime. I recommend you use **qBittorrent**! 
-- [Hianime.to](https://hianime.to/) - anime streaming site where you can turn off subtitles and switch to Japanese 日本語 audio.
+- [Hianime.to](https://hianime.to/) - **SITE IS CURRENTLY OFFLINE** anime streaming site where you can turn off subtitles and switch to Japanese 日本語 audio.  
+- [Aniwatchtv.to](https://aniwatchtv.to/) - appears to be the only active hianime mirror.  
+- [Anime Nexus](https://anime.nexus/) - You can turn off subtitles here too, but the library is smaller than HiAnime's.  
 - [asbplayer Chrome Extension](https://github.com/killergerbah/asbplayer/releases) - Chrome extension that allows you to drag and drop subtitle files (See [Subtitles](#subtitles)) on a video you are streaming. It works with hianime.to, and it may work with other sites. 
 - [Animelon](https://animelon.com/) - stream anime with Japanese subtitles.
 - [AnimeCards - Subtitles](https://animecards.site/subtitles/) - Goes over how to get Japanese subtitles and how to sync them for the video. 
 - [Crunchyroll](https://www.crunchyroll.com) - it's free but with ads. You can turn off subtitles.  
+- [Manatan](https://github.com/KolbyML/Manatan) - All-in-one app for anime, manga, and novels with OCR/subtitle dictionary lookups. Supports Desktop, iOS, and Android.
 ### Movies & TV Shows (J-drama)
 - [Bagikuy](https://bagikuy.com/) - j-drama download links.  
 - [Nyaa.si](https://nyaa.si/?q=&f=0&c=4_4) - has some jdrama.  
@@ -87,11 +90,7 @@ Also check out the grammar dictionaries for Yomitan in my dictionary collection.
 - [Minidrama](https://minidrama.net/j-drama/) - MKV downloads for J-drama.  
 - [Raredoramas](https://raredoramas.info/) - site for collecting rare J-Drama
 - [IPTV GitHub Repo - japanese](https://gitflic.ru/project/utako/utako) - watch Japanese TV channels with a video player like VLC.
-- [Japanese Live TV Streams](https://aqstream.com/jp) - Good speed but small collection. TBS and TV Tokyo work great.
-- [Japanese Live TV Streams 2](https://www.xhzb.tw/en/list.php?tid=94) - Not all channels work.
-- [Japanese Live TV Streams 3](https://tver.jp/)- use a [VPN](https://learnjapanese.moe/resources/#vpns-japan-location-specific).
-- [Japanese Live TV Streams 4](https://tv.garden/jp)
-- **[Japanese Live TV Android App](https://play.google.com/store/apps/details?id=com.kwakami.tv_japan)** - has the best collection. Android only but you can emulate Android on a PC.
+- **[Japanese Live TV Streams](https://web.utako.moe/)** 
 - [ABEMA](https://abema.tv/) - Watch ABEMA Japanese TV. You need a Japanese VPN if you are outside of Japan though.
 - [Search on bilibili](https://www.bilibili.com/) - Chinese website but they are pretty good at Japanese content piracy.
 - [Terrace House BGND](https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177) - Download links for raw Terrace House BGND
@@ -102,7 +101,7 @@ Also check out the grammar dictionaries for Yomitan in my dictionary collection.
 
 Refer to the tools section for info on how to make lookups easier for manga.  
 
-- **[※ Mangatan all-in-one](https://github.com/KolbyML/Mangatan?tab=readme-ov-file#setup-windows)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)  
+- **[※ Manatan all-in-one](https://github.com/KolbyML/Manatan)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. Supports Desktop, iOS, and Android. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)  
 - [Archive.org 2019 Archive](https://archive.org/download/2019-japanese-comics-pack) - Archive of some manga.  
 - [BilingualManga](https://bilingualmanga.org/) - Yomitan compatible & one-click translation.   
 - **[Hakuneko Manga Downloader](https://hakuneko.download/)** - You can download Japanese manga here, use a combination of the `raw` and `japanese` tags.
@@ -122,7 +121,7 @@ The websites below have the best collection but can be a pain to download from.
 - [Japanese Media Recommendations List](https://docs.google.com/spreadsheets/d/1w42HEKEu2AzZg9K7PI0ma9ICmr2qYEKQ9IF4XxFSnQU/)
 
 ### Novels and Literary Texts
-- [Anna's Archive](https://annas-archive.li/) — has nearly everything. If it's blocked for you, use a VPN or [Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/warp/download-warp/). For mirror status see [Open-Slum](https://open-slum.org/).  
+- [Anna's Archive](https://annas-archive.gl/) — has nearly everything. If it's blocked for you, use a VPN or [Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/warp/download-warp/). For mirror status see [Shadow Libraries](https://shadowlibraries.github.io/DirectDownloads/AnnasArchive/).  
 - [PeepoHappyBooks Torrent](https://nyaa.si/view/1548943) - Collection of 30000 unique epubs compiled from boroboro, itazuraneko, etc.  
 - [TMW Collection Torrents](https://nyaa.si/?f=0&c=0_0&q=TMW)   
 - [Lolibrary](https://lolibrary.moe/)  
@@ -134,6 +133,7 @@ The websites below have the best collection but can be a pain to download from.
 - [Aozora Bunko](https://www.aozora.gr.jp/) - read Japanese classics. Books go on here if the author has died more than 50 years ago.  
 - **[※ ッツ Ebook Reader](https://reader.ttsu.app/)** - Japanese book reader that supports EPUB and HTMLZ. Text is displayed in 縦書き (vertical text) by default. This is one of the best options for an authentic experience reading Japanese books.
 - [Japanese Media Recommendations List](https://docs.google.com/spreadsheets/d/1w42HEKEu2AzZg9K7PI0ma9ICmr2qYEKQ9IF4XxFSnQU/)
+- [Manatan](https://github.com/KolbyML/Manatan) - Read light novels/novels and EPUBs with instant dictionary lookups and Anki card generation. Supports Desktop, iOS, and Android.
 
 Note: Gaining the Student rank or above in our Discord channel grants you access to more books than just these.  
 
@@ -177,7 +177,8 @@ Note: visual novels on consoles do not have any NSFW content.
 #### Hook VNs with Textractor!
 - [VN Guide](https://learnjapanese.moe/vn/)  
 ### Audiobooks & Podcasts
-- [Audiobook Collection](https://onedrive.live.com/?authkey=%21ACiYIpTlxCBAtvU&id=12E15D07EB9B7E28%212087&cid=12E15D07EB9B7E28) - More audiobooks 
+- [TMW Audiobook Collections](https://nyaa.si/?f=0&c=2_0&q=TMW)  
+- [TMW Audiobook Collection Index](https://coreaudio.netlify.app/)
 - [Japanese Podcast Spreadsheet](https://docs.google.com/spreadsheets/d/17P2dBQHnBnHcG3ua_24IO6sP9RDC-5b3WHV9Ri2N5qU/edit#gid=0) 
 - [Podcast Republic](https://www.podcastrepublic.net/) - Change the country to Japan and look at popular.  
 - [睡眠用ひろゆき](https://www.youtube.com/@kiriyuki_hiroyuki/videos)
@@ -219,7 +220,7 @@ Note: visual novels on consoles do not have any NSFW content.
 - [Immersion Reader](https://apps.apple.com/us/app/immersion-reader/id6443721334) - Japanese e-book reader with a fast dictionary look up feature. 
 - [10ten Japanese Reader](https://apps.apple.com/app/10ten-japanese-reader/id1573540634) - Similar in a way to Yomitan.  
 ### Manga
-- **[※ Mangatan all-in-one](https://github.com/KolbyML/Mangatan?tab=readme-ov-file#setup-windows)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)
+- **[※ Manatan all-in-one](https://github.com/KolbyML/Manatan)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. Supports Desktop, iOS, and Android. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)
 - [mokuro](https://github.com/kha-white/mokuro) - Process manga to make it readable in browser with Yomitan.
 #### Android apps
 - [Mihon](https://github.com/mihonapp/mihon)  
