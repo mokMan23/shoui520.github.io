@@ -57,14 +57,22 @@ From now on, you may either use shared clipboards (if your virtualization softwa
 2. Go to the [Texthooker UI Webpage](https://renji-xd.github.io/texthooker-ui/), click the gear icon & check `Enable Paste`.
 
 !!! failure "**Importing Jitendex *will* cause memory-related crashes.**" 
-Install [these custom split dictionary files](https://drive.proton.me/urls/NSC3JVDV64#lfoRs2KHcQxW) as a workaround.
+	Install [these custom split dictionary files](https://drive.proton.me/urls/NSC3JVDV64#lfoRs2KHcQxW) as a workaround.
 
 
 # Here's what both methods look like, in action
 
 ![Image](img/winxp1.jpg)
+
+from VM
+
 ![Image](img/winxp2.jpg)
+
+from PC
+
 ![Image](img/winxp3.png)
+
+example of everything in VM
 
 <h3>Found this useful? Consider supporting me on Patreon!</h3>   
 
