@@ -18,7 +18,7 @@ Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs a
 
 ## Setup
 
-!!! tip "At least 512MB is recommended for a basic Service Pack 3 install, 1-2 GB for Yomitan & web browsing." 
+??? tip "At least 512MB is recommended for a basic Service Pack 3 install, 1-2 GB for Yomitan & web browsing." 
 	More than 2GB is unnecessary for XP, and any other 32-bit OS, since no program will be able to use more than 2 GB. **If you connect your machine to the Internet, [updating](https://legacyupdate.net/) is strongly recommended.**
 	Some VNs also check your formats, location, and time zone as a method of region-locking. A non-Japanese locale breaks text in VNs, showing garbage instead. 
 
@@ -46,7 +46,7 @@ Congratulations, you now have a VN-ready XP install!
 [MyPal](https://github.com/Feodor2/Mypal68/releases/latest) - Modern browser based off Firefox 68, less resource intensive than Supermium & recommended for PCs <1GB RAM
 
 ## Using ITHVNR for text hooking
-!!! tip "If you installed Legacy Update, your root certificates are **up-to-date.**"
+!!! info "If you installed Legacy Update, your root certificates are up-to-date."
 [ITHVNR](https://drive.proton.me/urls/C2QY84DYX0#vRIWAHdwnAb0) is an XP-supported alternative of Texthooker. [Update your root certificates first](https://github.com/JohnTHaller/RootCertificateUpdatesForLegacyWindows/releases/latest),
 then install [Visual C++ Redistributable 2013](https://aka.ms/highdpimfc2013x86enu). Extract the RAR file using [7-Zip](https://www.7-zip.org/).
 
