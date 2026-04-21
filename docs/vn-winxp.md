@@ -1,7 +1,7 @@
-# Running Old Visual Novels on Windows XP/Server 2003 (XP x64)
+# Running Old Visual Novels on (32-bit) Windows XP
 Occasionally, you'll find VNs that either have compatibility issues, or won't work at all in modern versions of Windows or Wine. This is where a Windows XP VM comes in handy.
 
-!!! failure "This guide only covers Windows XP/Server 2003 (XP x64)." 
+!!! failure "This guide only covers Windows XP" 
 	If you're installing XP through virtualization (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation. Additionally, if you're installing XP on a machine with an SSD, XP supports neither Drive Alignment nor TRIM, which will shorten the lifespan of your drive. This does *not* affect virtualization.
 
 ??? abstract "If you already have XP installed:" 
