@@ -1,7 +1,7 @@
-# Running Old Visual Novels on Windows XP
+# Running Old Visual Novels on Windows XP/Server 2003 (XP x64)
 Occasionally, you'll find VNs that either have compatibility issues, or won't work at all in modern versions of Windows or Wine. This is where a Windows XP VM comes in handy.
 
-!!! failure "This guide only covers Windows XP." 
+!!! failure "This guide only covers Windows XP/Server 2003 (XP x64)." 
 	If you're installing XP through virtualization (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation. Additionally, if you're installing XP on a machine with an SSD, XP supports neither Drive Alignment nor TRIM, which will shorten the lifespan of your drive. This does *not* affect virtualization.
 
 ??? abstract "If you already have XP installed:" 
@@ -14,7 +14,7 @@ Occasionally, you'll find VNs that either have compatibility issues, or won't wo
 	
 Hypervisor (e.g. QEMU, VirtualBox) & AMD-V/VT-x enabled, or hardware capable of running XP
 
-Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs are recommended.
+Windows XP ISO & Product Key - Google is your friend.
 
 ## Setup
 
@@ -39,7 +39,7 @@ Congratulations, you now have a VN-ready XP install!
 ## Additional Software
 [MacType](https://github.com/snowie2000/mactype/releases/download/2019.1-beta6/MacTypeInstaller_2019.1-beta6.exe) - Fix pixelated CJK font. Use registry mode. :slight_smile:  
 
-[xp_activate32](https://archive.org/download/xp_activate32_202305/xp_activate32.zip) - Activates XP through Phone Activation, if required
+[xp_activate32](https://archive.org/download/xp_activate32_202305/xp_activate32.zip) - Activates XP, if required
  
 [Supermium](https://www.win32subsystem.live/supermium/) - Modern Chromium on Windows XP
 
@@ -56,7 +56,7 @@ From now on, you may either use shared clipboards (if your virtualization softwa
 2. Go to the [Texthooker UI Webpage](https://renji-xd.github.io/texthooker-ui/), click the gear icon & check `Enable Paste`.
 
 !!! failure "**Importing Jitendex *will* cause memory-related crashes.**" 
-	Install [these custom split dictionary files](https://drive.proton.me/urls/NSC3JVDV64#lfoRs2KHcQxW) as a workaround.
+	Install [a split version](https://drive.proton.me/urls/NSC3JVDV64#lfoRs2KHcQxW) as a workaround.
 
 
 # Here's what both methods look like, in action
