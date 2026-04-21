@@ -14,12 +14,12 @@ Occasionally, you'll find VNs that either have compatibility issues, or won't wo
 	
 Hypervisor (e.g. QEMU, VirtualBox) & AMD-V/VT-x enabled, or hardware capable of running XP
 
-Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs are highly recommended.
+Windows XP ISO & Product Key - Google is your friend, SP3 Professional VL ISOs are recommended.
 
 ## Setup
 
 !!! tip "At least 512MB is recommended for a basic Service Pack 3 install, 1-2 GB for Yomitan & web browsing." 
-	More than 2GB is unnecessary for XP, and any other 32-bit OS, since no program will be able to use more than 2 GB. **If you connect your machine to the Internet, [updating](https://legacyupdate.net/) is HIGHLY recommended.**
+	More than 2GB is unnecessary for XP, and any other 32-bit OS, since no program will be able to use more than 2 GB. **If you connect your machine to the Internet, [updating](https://legacyupdate.net/) is strongly recommended.**
 	Some VNs also check your formats, location, and time zone as a method of region-locking. A non-Japanese locale breaks text in VNs, showing garbage instead. 
 
 1. You will be greeted with a blue installation screen. Follow the instructions until you're asked to format your drive. Choose NTFS ("Quick" format, if it's available) & wait until your system reboots.
