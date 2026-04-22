@@ -2,7 +2,7 @@
 Occasionally, you'll find VNs that either have compatibility issues, or won't work at all in modern versions of Windows or Wine. This is where a Windows XP VM comes in handy.
 
 !!! failure "This guide only covers Windows XP" 
-	If you're installing XP through virtualization (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation. Additionally, if you're installing XP on a machine with an SSD, XP supports neither Drive Alignment nor TRIM, which will shorten the lifespan of your drive. This does *not* affect virtualization.
+	If you're installing XP through virtualization (e.g VirtualBox, QEMU & VMWare), please refer to your hypervisor's documentation. Additionally, if you're installing XP on a machine with an SSD, XP supports neither Drive Alignment nor TRIM, which will shorten the lifespan of your drive. This does *not* affect virtualization. **If your VN requires 3D acceleration, your only options are [downloading an old version of VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_6_0), or [passing through an XP-supported GPU (Linux only).](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)**
 
 ??? abstract "If you already have XP installed:" 
 	1. Insert a Windows XP Installation CD.
@@ -52,11 +52,11 @@ then install [Visual C++ Redistributable 2013](https://aka.ms/highdpimfc2013x86e
 
 From now on, you may either use shared clipboards (if your virtualization software *supports* it) and use your host OS for Yomitan reading practice, or do it inside the VM. If you decide the former, the guide ends here. However, if your Virtualization software doesn't support Clipboard Sharing (or you're on real hardware), follow the steps below:
   
-1. For Supermium users, install [Yomitan](https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn). For MyPal users, install [Yomichan](https://github.com/FooSoft/yomichan/releases/download/22.10.23.0/yomichan-firefox.xpi), since Yomitan doesn't work.
-2. Go to the [Texthooker UI Webpage](https://renji-xd.github.io/texthooker-ui/), click the gear icon & check `Enable Paste`.
+1. For Supermium users, install [Yomitan](https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn) & [Clipboard Inserter](https://chromewebstore.google.com/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm). For MyPal users, install [Yomichan](https://github.com/FooSoft/yomichan/releases/download/22.10.23.0/yomichan-firefox.xpi) & [Lap Clipboard Inserter](https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/), since Yomitan doesn't work. A good starter dictionary is [the "legacy" version of JMdict](https://github.com/yomidevs/jmdict-yomitan/releases/latest/download/JMdict_english_legacy.zip).
+2. Go to the [Texthooker UI Webpage](/texthooker.html), click the gear icon & check `Enable Paste`.
 
-!!! failure "**Importing Jitendex *will* cause memory-related crashes.**" 
-	Install [a split version](https://drive.proton.me/urls/NSC3JVDV64#lfoRs2KHcQxW) as a workaround.
+!!! failure "Importing larger & more complex dictionaries *will* cause memory-related crashes." 
+	Try splitting dictionaries, or install older versions designed for Yomichan as a workaround.
 
 
 # Here's what both methods look like, in action
