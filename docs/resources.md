@@ -223,7 +223,7 @@ Note: visual novels on consoles do not have any NSFW content.
 - [10ten Japanese Reader](https://apps.apple.com/app/10ten-japanese-reader/id1573540634) - Similar in a way to Yomitan.  
 ### Manga
 - **[※ Manatan all-in-one](https://github.com/KolbyML/Manatan)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. Supports Desktop, iOS, and Android. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)
-- [mokuro](https://github.com/kha-white/mokuro) - Process manga to make it readable in browser with Yomitan.
+- [mokuro catalog](https://mokuro.moe/catalog/)  
 #### Android apps
 - [Mihon](https://github.com/mihonapp/mihon)  
 #### iOS apps
