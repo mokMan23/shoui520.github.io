@@ -542,7 +542,7 @@ Upon installation, you then need to install some dictionaries. If you press `Get
 This isn't everything you need though.  
 
 
-**I do NOT recommend "Jitendex"!** It's JMdict, but with a ton of HTML, CSS and hyperlinks added to the cards. **This creates friction for Anki card creation**.  How do you effectively filter out superfluous information without manual labour? You can't. Use a simple version of JMdict, like the one in my collection.  
+**I do NOT recommend "Jitendex"!** It's JMdict, but with a ton of HTML, CSS and hyperlinks added to the cards. **This creates friction for Anki card creation**.  How do you effectively filter out superfluous information without manual labour? You can't. Use a simple version of JMdict, like the plaintext one in my collection.  
 
 In addition to the "Recommended Dictionaries" (excluding Jitendex) you can install within Yomitan by default, you should also get these additional dictionaries you can find at **[my dictionary collection](https://learnjapanese.link/dictionaries)**  
 
@@ -552,7 +552,7 @@ You can also just download everything in one go:
 [**➡Shoui method dictionary pack** (download all at once)](https://drive.google.com/drive/folders/16nPmTCQtpi43wkYdvTh7Qfngr21FE36W?usp=sharing)
 
 
-- `Bilingual/[Bilingual] JMdict (English) ("Legacy")`
+- `Bilingual/[Bilingual] JMdict Plaintext (Fanshi).zip`
 - `Bilingual/[Bilingual] 研究社　新和英大辞典　第５版.zip`
 - `Bilingual/[Bilingual] NEW斎藤和英大辞典.zip`
 - `Bilingual/[Bilingual] Babylon Japanese-English.zip`
@@ -574,7 +574,7 @@ You can also just download everything in one go:
 
 The order you put your dicts is important, here is what I recommend for beginners:
 
-1. Jitendex (JMdict)
+1. JMdict Plaintext (Fanshi).zip
 2. 研究社　新和英大辞典　第５版
 3. Bunpro
 4. Dictionary of Japanese Grammar
@@ -718,7 +718,7 @@ Now configure the card fields:
 | ExpressionReading | `{reading}` |
 | ExpressionAudio | `{audio}` |
 | SelectionText | `{popup-selection-text}` |
-| MainDefinition [1] | `{single-glossary-jmdict-legacy-2026-01-14}{single-glossary-研究社-新和英大辞典-第５版}` |
+| MainDefinition [1] | `{single-glossary-jmdict}{single-glossary-研究社-新和英大辞典-第５版}` |
 | DefinitionPicture |  |
 | Sentence | `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}` |
 | SentenceFurigana |  |
@@ -738,7 +738,6 @@ Now configure the card fields:
 
 [1] Ideally, put your two favourite dictionaries in here. What I've defined here (Jmdict+kenkyuusha) is just the basic list that will be fine for people that are not going monolingual yet. This is supposed to be a safety net when you are too lazy to highlight text for `SelectionText`. Ideally you would highlight your chosen definition, then press the green button to add a card, but I understand, that is actually a lot of work. So `MainDefinition` is your safety net. Your next safety net/fallback is `Glossary`, which contains everything in the Yomitan pop up when you added the card. Lapis is intelligent and can fallback to the relevant field if one is blank. (E.g., if `SelectionText` is blank, it will fallback to `MainDefinition`. If `MainDefinition` is blank, it will fallback to `Glossary`).  
 
-Also, warning: the JMdict name contains the date the dict was built, if you downloaded it from my drive, it should be `{single-glossary-jmdict-legacy-2026-01-14}`, if you got it directly from [the source](https://github.com/yomidevs/jmdict-yomitan), the date will be different, so adjust accordingly.  
 
 [2] In my method, I put both the sentence and the word on the front. But I rarely ever read the sentence, it was just there for visual context. Depending on who you are, (if youre the type to use that sentence as a crutch, then remove the `y` please.), you might find this useful or you might find it to be shooting yourself in the foot. Personally, I liked having it, as it was more reflective of real world use without being tiresome and too easy at the same time like sentence cards.   
 

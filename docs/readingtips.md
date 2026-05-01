@@ -29,8 +29,6 @@ See [my visual novel guide](/vn) to learn how to learn Japanese with visual nove
 
 ### Yomitan + Textractor + Texthooker page  
 
-The holy trinity of Japanese learning (for visual novel enjoyers).  
-
 Everything you need to know is in [The VN guide](/vn)  
 
 ### Read a book of something you've seen.  
@@ -52,23 +50,21 @@ Anyway, this is obviously a God tier reading strategy because, by watching the a
 
 ### Yomitan, EPUBs + ッツ Reader  
 
-The holy trinity of Japanese learning (for novel enjoyers).  
-
 - Set up Yomitan [here](/yomichan)  
 - EPUBs- [many ways](/resources) you can get them. Anna's Archive, [PeepoHappyBooks](https://nyaa.si/view/1350523)) etc.  
 - [ッツ Reader](https://reader.ttsu.app/manage)  
 
 ### Manga
 
-Manga is good reading practice. Of course it is, there is no way it can't be.   
+Manga is good reading practice.
 
-But you should kind of be aware that they only have speech and short descriptions most of the time.  
+But you should kind of be aware that they only have speech and short descriptions most of the time, which is still fine, and will still help you learn Japanese, but you might want to consider reading VNs and LNs later on for something more information dense so you can improve more.  
 
-Nevertheless, they are still good for reading, and you can obviously learn tons of words from manga, and you'll get good at reading manga by reading a lot of manga.  
+### Manga reading setup
 
-### Yomitan+Manatan
+I recommend using the [Mokuro catalog](https://mokuro.moe/catalog/) with Yomitan.  
 
-Yomitan + [Manatan](https://manatan.com/) is the best way to read manga to learn Japanese. 
+You can also use [Manatan](https://manatan.com/). It's like an automatic mokuro that works on tachiyomi compatible manga sources.
 
 ### Pomodoro / Timeboxing  
 

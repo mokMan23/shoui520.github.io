@@ -180,6 +180,7 @@ Note: visual novels on consoles do not have any NSFW content.
 ### Audiobooks & Podcasts
 - [TMW Audiobook Collections](https://nyaa.si/?f=0&c=2_0&q=TMW)  
 - [TMW Audiobook Collection Index](https://coreaudio.netlify.app/)
+- [TMW Audiobook Subtitles](https://honjimaku.com/)  
 - [Japanese Podcast Spreadsheet](https://docs.google.com/spreadsheets/d/17P2dBQHnBnHcG3ua_24IO6sP9RDC-5b3WHV9Ri2N5qU/edit#gid=0) 
 - [Podcast Republic](https://www.podcastrepublic.net/) - Change the country to Japan and look at popular.  
 - [睡眠用ひろゆき](https://www.youtube.com/@kiriyuki_hiroyuki/videos)
@@ -223,7 +224,7 @@ Note: visual novels on consoles do not have any NSFW content.
 - [10ten Japanese Reader](https://apps.apple.com/app/10ten-japanese-reader/id1573540634) - Similar in a way to Yomitan.  
 ### Manga
 - **[※ Manatan all-in-one](https://github.com/KolbyML/Manatan)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. Supports Desktop, iOS, and Android. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)
-- [mokuro](https://github.com/kha-white/mokuro) - Process manga to make it readable in browser with Yomitan.
+- [mokuro catalog](https://mokuro.moe/catalog/)  
 #### Android apps
 - [Mihon](https://github.com/mihonapp/mihon)  
 #### iOS apps
