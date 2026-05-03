@@ -226,6 +226,7 @@ Note: visual novels on consoles do not have any NSFW content.
 - **[※ Manatan all-in-one](https://github.com/KolbyML/Manatan)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. Supports Desktop, iOS, and Android. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)
 - [mokuro catalog](https://mokuro.moe/catalog/)  
 #### Android apps
+- [Chimahon](https://github.com/sohilsayed/chimahon/releases)  
 - [Mihon](https://github.com/mihonapp/mihon)  
 #### iOS apps
 - [Kantan Manga Reader](https://apps.apple.com/us/app/kantan-manga/id1518666365) - use OCR to read manga. It has Yomitan dictionary and EPWING support! 
