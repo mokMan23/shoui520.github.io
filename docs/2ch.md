@@ -247,7 +247,7 @@ You can also use [5chスレタイ検索](https://ff5ch.syoboi.jp/)
 
 That is where まとめサイト (Matome sites) come in. These sites aggregate selected posts from 5ch threads onto third-party sites, typically organized by topic or hobby. For example, there is a [Love Live! 5ch matome site](http://lovelivematocha.com/) that takes threads from the ラブライブ！ board. Here's [ピコピコ通信](https://stkn-games.net/), a まとめサイト that posts threads from video game related 5ch boards. Here's [アルファルファモザイク](https://alfalfalfa.com/) which is more like a general まとめサイト.  
   
-While they can be easier to browse, learners should understand that these sites are commercially motivated. They cherry-picking the "funny" or "toxic" posts for engagement, not accuracy or representativeness. The 5ch community broadly considers them exploitative (see: アフィカス in terminology). If your goal is to understand how Japanese people actually talk online, reading the original threads directly is always preferable. まとめサイト can supplement your reading, but they should not be treated as a substitute for the real thing.
+While they can be easier to browse, learners should understand that these sites are commercially motivated. They cherry-pick the "funny" or "toxic" posts for engagement, not accuracy or representativeness. The 5ch community broadly considers them exploitative (see: アフィカス in terminology). If your goal is to understand how Japanese people actually talk online, reading the original threads directly is always preferable. まとめサイト can supplement your reading, but they should not be treated as a substitute for the real thing.
 
 ## Notorious 5ch boards
 	- なんでも実況J  
