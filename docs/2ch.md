@@ -4,8 +4,7 @@
 **Update March 2026: The domain has changed to 5ch.io after 5ch.net was seized by its registrar**  
 **Update 2025: I recommend you check out [エッヂ](#new)**    
 
-2channel (Japanese: ２ちゃんねる) (New name: ５ちゃんねる) is a Japanese anonymous **text** bulletin board. You can think of it as the Japanese equivalent to something in between Reddit and 4chan, with a more toxic userbase than Reddit and varying levels of moderation. You can use this to burn away time instead of looking at English sites. The site design is very questionable by today's standards, and I will be constantly calling it "awful" in this article. The awful site design, combined with the lack of user friendliness, make the site very **hard to use**, especially for people still learning Japanese. 
-This article will try explaining how to use 5ch in your browser. 
+2channel (Japanese: ２ちゃんねる) (New name: ５ちゃんねる) is a Japanese anonymous **text** bulletin board. You can think of it as the Japanese equivalent to something in between Reddit and 4chan, with a more toxic userbase than Reddit and varying levels of moderation. You can use this to burn away time instead of looking at English sites. 5ch's interface is deliberately minimal and text-focused, inheriting its design philosophy from the original 2channel BBS format. While this can feel dated compared to modern social media, it serves a purpose: the site prioritizes anonymous text communication above all else, making it a valuable resource for learning Japanese.
 
 ## So what is this site actually called? 
 
@@ -19,9 +18,9 @@ This article will try explaining how to use 5ch in your browser.
 
 ![Image](img/2ch01.png)
 
-What! What part of the site design is awful, you say?
+What! What part of the site design acts as this barrier, you say?
 Well first, that screenshot is actually taken with an ad-blocker enabled. The site without an ad-blocker has too many ads to be a pleasant experience.  
-And second, the site design is actually very **inconsistent**, the site design changes across different pages. Only the front page looks good, lol.  
+And second, the site design is actually very **inconsistent**, the site design changes across different pages. Only the front page looks good, lol.
 
 I recommend uBlock Origin ([Chrome](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)) as an ad-blocker. It is the only one that functions properly as an ad-blocker.  
 
@@ -131,7 +130,7 @@ You can start new threads by going to the board page and scrolling to the bottom
 
 ## Posting Culture
 
-Since posting is anonymous, posts *may* get toxic. People may throw insults around. I think it is nothing compared to 4chan, though. Also, it varies a lot depending on *what* board you are posting on. Boards like the [アニメ](https://pug.5ch.io/anime/) board have good moderation and does not really get toxic.   On the other hand, a sh\*thole such as [ニュー速(嫌儲)](https://greta.5ch.io/poverty/) is pretty much always the underbelly of the Japanese net. 
+Since posting is anonymous, posts *may* get toxic. People may throw insults around. I think it is nothing compared to 4chan, though. Also, it varies a lot depending on *what* board you are posting on. Boards like the [アニメ](https://pug.5ch.io/anime/) board have good moderation and does not really get toxic. On the other hand, [ニュー速(嫌儲)](https://greta.5ch.io/poverty/), also known as "Kenmo," is one of the more politically engaged and opinionated boards on 5ch. The name literally means "Hating Profit" as the board was originally created as a protest against まとめサイト monetizing anonymous posts. Its users tend to be skeptical of mainstream media narratives, corporate influence, and performative politics. The tone is blunt and often confrontational, but it provides an unfiltered window into a segment of Japanese public opinion that is rarely represented in other media. For advanced learners interested in Japanese political discourse and internet culture, it is one of the most valuable boards on the site.
 
 People can and will respond negatively to poor quality posts you make and threads you create, and there *will* be haters everywhere bashing the things you like, it is important to not take these negative responses to heart, and learn to get over them.  
 
@@ -238,7 +237,7 @@ This has a lot of useful quality of life improvements. Including:
 ## Recommended way to search 5ch
 
 ~~If you want to search active and archived threads, and thread content too, I recommend using Google with the search term `site:5ch.net <keyword>`.~~   
-his sucks in 2024. The best way now is to use [find.2ch.sc](https://find.2ch.sc/). 2ch.sc is a mirror site of 5ch.io, owned by the righteous owner of 2channel, Hiroyuki Nishimura. Threads and responses on here that have @net next to them are mirrored from 5ch.net, and you can find the corresponding threads on the 5ch.io site easily.  
+This sucks in 2024. The best way now is to use [find.2ch.sc](https://find.2ch.sc/). 2ch.sc is a mirror site of 5ch.io, operated by Hiroyuki Nishimura, the original founder of 2channel. Nishimura lost operational control of the site in a dispute, after which it was renamed to 5channel. Nishimura then created 2ch.sc as a mirror. Regardless of the politics, find.2ch.sc remains a useful search tool for finding archived 5ch content. Threads and responses on here that have @net next to them are mirrored from 5ch.net, and you can find the corresponding threads on the 5ch.io site easily.  
 
 The search bar on the site is fine (find.5ch.io) to search thread titles of active thread.  
 You can also use [5chスレタイ検索](https://ff5ch.syoboi.jp/)   
@@ -246,11 +245,9 @@ You can also use [5chスレタイ検索](https://ff5ch.syoboi.jp/)
 ## 結局 No point of using 5ch?? / まとめサイト introduction
 5ch can have a lot of interesting posts, however a lot of threads may be クソスレ (crappy threads) and a lot of responses in threads may be クソレス (crappy responses). It can also be hard to find things on 5ch.  
 
-That is where まとめサイト's come in. These sites take interesting threads and only the interesting responses, and put them on a 3rd party site. These sites are also usually specialized in only posting about one topic. For example, there is a [Love Live! 5ch matome site](http://lovelivematocha.com/) that takes threads from the ラブライブ！ board. Here's [ピコピコ通信](https://stkn-games.net/), a まとめサイト that posts threads from video game related 5ch boards. Here's [アルファルファモザイク](https://alfalfalfa.com/) which is more like a general まとめサイト.  
+That is where まとめサイト (Matome sites) come in. These sites aggregate selected posts from 5ch threads onto third-party sites, typically organized by topic or hobby. For example, there is a [Love Live! 5ch matome site](http://lovelivematocha.com/) that takes threads from the ラブライブ！ board. Here's [ピコピコ通信](https://stkn-games.net/), a まとめサイト that posts threads from video game related 5ch boards. Here's [アルファルファモザイク](https://alfalfalfa.com/) which is more like a general まとめサイト.  
   
-In my opinion, まとめサイト's are the real Japanese alternative to mindlessly scrolling something like Reddit. You can spend hours being entertained just looking at まとめサイト's.  
-There is a まとめサイト for pretty much any hobby / interest, just search on Google for them. You can see a まとめサイト recommendation list here:  
-[【完全版】おすすめまとめサイト30選！2chなどジャンル別に調査！](https://monamona2525.com/archives/59506)  
+While they can be easier to browse, learners should understand that these sites are commercially motivated. They cherry-pick the "funny" or "toxic" posts for engagement, not accuracy or representativeness. The 5ch community broadly considers them exploitative (see: アフィカス in terminology). If your goal is to understand how Japanese people actually talk online, reading the original threads directly is always preferable. まとめサイト can supplement your reading, but they should not be treated as a substitute for the real thing.
 
 ## Notorious 5ch boards
 	- なんでも実況J  
