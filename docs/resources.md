@@ -13,6 +13,7 @@
 
 - [Kaishi 1.5k](https://ankiweb.net/shared/info/1196762551) - The basic vocabulary deck the guide suggests to learn Japanese. You can also find it [here](https://github.com/donkuri/Kaishi/releases) (click on the `.apkg` file).
 - **[※ - The "Kanken Deck"](https://mega.nz/file/VVdkUZbI#lGvxw2hDkw7JCEWa90cViY7cpYatf1SPUrE0Aw0OdDQ) - The best way to learn how to write when you can already read.**
+- **[※ - The "Kanken Deck With Stroke Animations"](https://drive.google.com/file/d/1o5Vc237S44FxACkhAd_3_bzOtxMusd2T/view) - The best way to learn how to write when you can already read. with stroke animations**
 - [Kanken resource page](https://rentry.org/kankenbros/#random-links)  
 - [Chronopolize's Kanji Components](https://ankiweb.net/shared/info/390273931) - An Anki deck to help you differentiate similar kanji by teaching components.  
 - [Usagi Chan Kanji Phonetics](/kanjiphonetics) - An Anki deck to help you learn the readings of kanji components that carry a consistent on-yomi.  
