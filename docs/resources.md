@@ -13,6 +13,7 @@
 
 - [Kaishi 1.5k](https://ankiweb.net/shared/info/1196762551) - The basic vocabulary deck the guide suggests to learn Japanese. You can also find it [here](https://github.com/donkuri/Kaishi/releases) (click on the `.apkg` file).
 - **[※ - The "Kanken Deck"](https://mega.nz/file/VVdkUZbI#lGvxw2hDkw7JCEWa90cViY7cpYatf1SPUrE0Aw0OdDQ) - The best way to learn how to write when you can already read.**
+- **[※ - The "Kanken Deck With Stroke Animations"](https://drive.google.com/file/d/1o5Vc237S44FxACkhAd_3_bzOtxMusd2T/view) - The best way to learn how to write when you can already read. with stroke animations**
 - [Kanken resource page](https://rentry.org/kankenbros/#random-links)  
 - [Chronopolize's Kanji Components](https://ankiweb.net/shared/info/390273931) - An Anki deck to help you differentiate similar kanji by teaching components.  
 - [Usagi Chan Kanji Phonetics](/kanjiphonetics) - An Anki deck to help you learn the readings of kanji components that carry a consistent on-yomi.  
@@ -226,6 +227,7 @@ Note: visual novels on consoles do not have any NSFW content.
 - **[※ Manatan all-in-one](https://github.com/KolbyML/Manatan)** - Easy to use all-in-one solution for reading Japanese manga with automatic OCR for seamless Yomitan lookups. Supports Desktop, iOS, and Android. [index.min.json file here](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json)
 - [mokuro catalog](https://mokuro.moe/catalog/)  
 #### Android apps
+- [Chimahon](https://github.com/sohilsayed/chimahon/releases)  
 - [Mihon](https://github.com/mihonapp/mihon)  
 #### iOS apps
 - [Kantan Manga Reader](https://apps.apple.com/us/app/kantan-manga/id1518666365) - use OCR to read manga. It has Yomitan dictionary and EPWING support! 
@@ -254,7 +256,8 @@ Yomitan, a browser add-on that allows you to look up Japanese words easily.
 - [shoui Yomitan Dictionaries Collection](https://learnjapanese.link/dictionaries)    
 - [Marv's dictionaries](https://github.com/MarvNC/yomitan-dictionaries)  
 - [Caoimhe's dictionaries](https://drive.proton.me/urls/GH0GV6DMEC#RP55zc2DL8vD)  
-- Every dictionary explained in the text file.  
+- [Salwynn's dictionaries](https://drive.google.com/drive/folders/1CPPAgKzz_PDEb7JUPHGioONTEQg0aCHW)  
+  
 ### Mobile dictionaries
 #### Android
 - [Akebi](https://play.google.com/store/apps/details?id=com.craxic.akebifree) - Bilingual dictionary for Android based on the JMdict project, has cool features such as auto-correction and AnkiDroid integration.  
