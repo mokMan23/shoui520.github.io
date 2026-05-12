@@ -51,7 +51,7 @@ Anyway, this is obviously a God tier reading strategy because, by watching the a
 ### Yomitan, EPUBs + ッツ Reader  
 
 - Set up Yomitan [here](/yomichan)  
-- EPUBs- [many ways](/resources) you can get them. Anna's Archive, [PeepoHappyBooks](https://nyaa.si/view/1350523)) etc.  
+- EPUBs- [many ways](/resources) you can get them. Anna's Archive, [PeepoHappyBooks](https://nyaa.si/view/1350523) etc.  
 - [ッツ Reader](https://reader.ttsu.app/manage)  
 
 ### Manga
