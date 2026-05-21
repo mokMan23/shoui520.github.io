@@ -1078,7 +1078,7 @@ This is a very "shoui method" part of the setup. I am not even sure people would
 I am a HUGE MS明朝 shill. Because I found that if bolded and made big enough, it looks like literal ink on my 1080p monitor. It's SO crisp. 
 This only works on Windows. Do **not** try using it on Android, Linux or macOS.   
 
-Also if you have a HiDPI display (display with a resolution above 1080p), there might be literally no point in doing this. I just do it because I noticed zero unclearness in the text on a 1080p monitor. Like I said, it looks like ink to me, it's that crisp. 
+~~Also if you have a HiDPI display (display with a resolution above 1080p), there might be literally no point in doing this.~~ I just do it because I noticed zero unclearness in the text on a 1080p monitor. Like I said, it looks like ink to me, it's that crisp. Edit: can confirm it looks absolutely stunning on 4K too!  
 
 Install Japanese supplemental fonts on Windows if you haven't already, this comes with MS明朝. It should come with the Japanese language pack if you chose to install it. 
 
