@@ -4,57 +4,39 @@ Pick your poison:
 === "Virtual Machine"
 	!!! warning "Graphics performance."
 		Some VNs will struggle to keep a consistent frame rate, will lag/have bad input latency. This requires tinkering with the chosen video adapter. See the [video adapters](#video-adapters) section.
+ 
+Japanese visual novels rarely require newer versions of Windows. For example, I got the latest 美少女万華鏡 running on Windows 8.1, a game that states Windows 10/11 as supported. With some exceptions, everything should work on 32-bit Vista & later.
 
-This is painless and **does not** require good hardware. All you need is VT-x. I got it running flawlessly on an old laptop with only 1 CPU core and 1 GB of RAM allocated to the virtual machine + power saving mode on the laptop.  
+**Windows 7 32-bit** is recommended for DirectX 11 support, along with being lightweight. If you need an ISO, you may obtain one [here](https://massgrave.dev/genuine-installation-media) (If unsure, download Enterprise editions.)
 
-Japanese visual novel novels rarely ever require a good computer or an updated Windows version. The majority are written to work flawlessly on *Windows Vista SP2, 32-bit*. This means running Windows 10 or 11 and using 64-bit Windows for VNs is useless and a waste of resources. It should be noted that new VN releases only state Windows 10/11 as a supported OS, but this is just because they haven't tested any other versions of Windows. I got the latest 美少女万華鏡 running on Windows 8.1, a game that states Windows 10/11 as supported.  
-There are some edge cases to this, but for the most part, everything should work on 32-bit versions of:  
+!!! tip "To skip downloading Language Packs & changing Locales, download a Japanese ISO."
 
-- Vista
-- 7
-- 8
-- 8.1
-
-10 and 11 is **useless**. Since VNs rarely require 64-bit version of Windows, 64-bit is also useless and will only waste memory. 
-
-You can use Windows 7 32-bit, but the version I recommend is **Windows 8.1 32-bit**, for DirectX 11 support. You can use whatever edition or source you want for this, but I highly recommend you download a Windows ISO that has updates (e.g. for 7, get one with SP1, for 8.1, get one with Update 3) 
-
-I used **Windows 8.1 Embedded Industry Pro 32-bit, ja-JP, with Update 3**. This is a very optimized OS. There is no bloat post-install. It just works. I got it from [here](https://files.rg-adguard.net/file/d4264c0b-6bc1-a0a9-39c6-3f1e0923c0d1) (requires Windows to generate).  
-
-The reason I recommend installing a Japanese-language version of Windows from the get-go is because all the correct settings (locale etc.) will be set already and it will come with Japanese fonts installed already, without having to go through the Windows Update servers. Some VNs, such as KEY games implement "gaijin checks" that also check for timezone, install language, region, etc. To avoid these issues entirely you can just install Windows in Japanese.  
-
-Activating Windows is easy. If you are asked for a product key during install, use one of the keys [here](https://github.com/iMoeAriaCG/Windows-Key-Collection).  
-Post-install, you can activate using [MAS](https://massgrave.dev/) offline .cmd version with TSforge.  
+Activating Windows is easy. If you are asked for a product key during install, simply click "Next" (Windows Vista/7) or "I don't have a product key" (Windows 8+) to bypass it.
+Post-install, you can activate using [MAS](https://massgrave.dev/#activation-methods)' traditioanl method.
 
 ### 1. Install VirtualBox
 
+!!! warning "If you've configured Secure Boot, you need to [sign & enroll](https://wiki.archlinux.org/title/VirtualBox#Sign_modules) your own keys. Some distributions do this automatically (most notably, Fedora)."
+
 **Refer to your distribution's documentation!**  
 
-I got it working with the [Arch Wiki article](https://wiki.archlinux.org/title/VirtualBox).  
-
-(mainline kernels use `virtualbox-host-modules-arch`, LTS kernels use `virtualbox-host-modules-lts`)
-```bash
-sudo pacman -S virtualbox virtualbox-guest-iso virtual-host-dkms
-```
-```bash
-sudo modprobe vboxdrv
-```
-```bash
-sudo usermod -aG vboxusers <user>
-```
+Here are some examples with [Arch](https://wiki.archlinux.org/title/VirtualBox) & [Fedora](https://rpmfusion.org/Howto/VirtualBox)-based distributions.
 
 ### 2. Set up the VM 
 
-Open VirtualBox and click the blue "New" button.  
-Select Windows ISO image you downloaded.   
-For the virtual machine specs. The default is literally fine. It will run well on 1 CPU core and 1 GB of RAM. Bump that up to 2GB of RAM if you feel memory pressure though.    
-You can set things up seamlessly with Proceed with Unattended Installation. Just choose a password for the Windows user, **click "Install Guest Additions"** and click finish.   
+!!! tip "If you have [KVM](https://wiki.archlinux.org/title/KVM) configured, enabling it (under General > System > Acceleration > "Paravirtualization Interface") is **strongly recommended.**"
 
-Post-install, restart Windows once to get VirtualBox Guest Additions working.   
+- Open VirtualBox and click the blue "New" button.  
 
-After VirtualBox Guest Additions are installed and working, set up VirtualBox Shared Folders: Devices > Shared Folders > Shared Folders Settings...  
+- Select Windows ISO image you downloaded, and disable "Proceed with Unattended Installation".  Click "Finish", then click the orange "Settings" button with your VM selected. 
 
-This is how you will be sharing files to your VM. Create a new folder on your Linux system. Click the + folder icon, add that as the Folder Path. You can leave the other fields blank. Enable Auto-mount, Make Machine-permanent and Make Global and click OK.  
+- Make sure to select the "Expert" tab, so every option is available.
+
+- Next, navigate to the "Shared Folders" tab & create a new folder on your host system. As the name implies, this folder will be used for sharing between your host & "guest" system. Click the + folder icon, add said afforemtnioned new folder as the path. You may leave the other fields blank. Make sure to enable "Auto-mount" & "Make Global". You may also enable "Shared Clipboard" & "Drag-and-drop", though these may introduce additional security vulurnabilities.
+
+- Configure your VM further, or click "OK" & click the green "Start" button.
+
+Once Windows is installed, install Guest Additions through Devices > "Insert Guest Additions CD image...". Access your Shared Folder through "Network > VBOXSVR" in File Explorer.
 
 Download [WinCDEmu](https://wincdemu.sysprogs.org/) and drag it into your shared folder to access it from the VM. Install it.  
 Also install some redists:
@@ -100,18 +82,9 @@ Some games really don't like the VBoxSVGA video adapter. They will either: crash
 * VBoxVGA: better compatibility, good speed depending on engine.
 * VMSVGA: best compatibility. supports higher 4:3 resolutions. Recommended for older VNs.
 
-#### Textractor can't launch / Visual C++ 2015-2022 runtime install error
-
-You need to make sure you have an updated version of the Windows version you are running. The most painless way to achieve this is to just have an .iso with service packs/updates already installed.  
-
-Recommended:  
-
-* Windows 7 SP1, 32-bit
-* Windows 8.1 with Update 3, 32-bit
 ### Power saving
 
-I recommend this for laptops.  
-You can conserve power by restricting VirtualBox's threads to a single core. Even if you only give 1 CPU core to the guest OS, VirtualBox still runs multithreaded on the host OS. This means that while the virtual machine is running, the host OS's scheduler does not let the rest of your CPU cores enter PC6/PC8 deep C-states, causing unneccessary battery drain.  
+You can conserve power by restricting VirtualBox's CPU useage to a single core. Even if you run a single-core VM, VirtualBox still runs multithreaded on the host, causing unnecessary battery drain.
 
 You can force VirtualBox to run on a single core by using `taskset`.  
 To run your VirtualBox VM on the physical core 0 (1st core) and its hyperthreaded sibling, run:  
@@ -134,7 +107,7 @@ CPU SOCKET CORE L1d:L1i:L2:L3 ONLINE    MAXMHZ   MINMHZ      MHZ
   7      0    3 3:3:3:0          yes 3600.0000 400.0000 799.9650
 ```
 
-With VirtualBox running on a single core, the VM will run slower and with higher input latency, but it is better for laptop battery life.  
+With VirtualBox running on a single core, you trade speed for battery life.  
 
 === "Wine"
 	!!! failure "Video cutscene playback"
