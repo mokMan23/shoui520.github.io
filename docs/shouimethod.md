@@ -846,7 +846,7 @@ In Anki, navigate to `Tools` → `Add-ons`, then click on the `Local Audio Serve
 This path is `%APPDATA%\Anki2\addons21\1045800357`. You can also access it by pasting it into ++win++++r++  
 
 Find your extracted .tar folder, inside, there should be a `user_files` folder.  
-MOVE the entire "`user_files`" folder into the local audio addon folder, so it looks like this:  
+MOVE the entire "`user_files`" folder into the local audio addon folder, so it looks like this, and replaces the empty `user_files` folder already there:  
 ![Image](img/shouilocalaudio4.png)  
 ![Image](img/shouilocalaudio2.png) 
 
