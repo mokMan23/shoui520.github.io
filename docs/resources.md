@@ -215,12 +215,13 @@ Note: visual novels on consoles do not have any NSFW content.
 ### Ebooks
 - **[※ ッツ Ebook Reader](https://reader.ttsu.app/)** - Japanese book reader that supports EPUB and HTMLZ. Text is displayed in 縦書き (vertical text) by default. This is one of the best options for an authentic experience reading Japanese books.
 #### Android apps
+- **[※ Hoshi Reader Android](https://github.com/HuangAntimony/Hoshi-Reader-Android**)** - Android port of the beautiful iOS Hoshi Reader, has first-class support for 縦書き and Yomitan dictionaries, and many other awesome features. 
 - [Microsoft Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary&hl=en) - Fastest browser on Android for Yomitan. Great paired with Ankiconnect Android. 
-- **[※ jidoujisho](https://github.com/lrorpilla/jidoujisho)** - A mobile video player, reader assistant and card creation toolkit for Android.  
+- [jidoujisho](https://github.com/lrorpilla/jidoujisho) - A mobile video player, reader assistant and card creation toolkit for Android.  
 #### iOS apps
-- **[Hoshi Reader](https://apps.apple.com/us/app/hoshi-reader/id6758244332)** - Japanese EPUB reader with a pop up dictionary and Anki card creation support.
+- **[※ Hoshi Reader](https://apps.apple.com/us/app/hoshi-reader/id6758244332)** - Beautiful Japanese EPUB reader with a pop up dictionary and Anki card creation support.
 - [Shiori Reader](https://apps.apple.com/us/app/shiori-reader/id6744979827) - Yomitan-like + card creation on iOS.
-- [Manabi Reader](https://reader.manabi.io/) - Alternative for Yomitan + card creation on iOS. 
+- [Manabi Reader](https://reader.manabi.io/) - One-tap Japanese word look-ups and Anki card creation support. 
 - [Immersion Reader](https://apps.apple.com/us/app/immersion-reader/id6443721334) - Japanese e-book reader with a fast dictionary look up feature. 
 - [10ten Japanese Reader](https://apps.apple.com/app/10ten-japanese-reader/id1573540634) - Similar in a way to Yomitan.  
 ### Manga
