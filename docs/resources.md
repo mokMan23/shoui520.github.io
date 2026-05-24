@@ -215,7 +215,7 @@ Note: visual novels on consoles do not have any NSFW content.
 ### Ebooks
 - **[※ ッツ Ebook Reader](https://reader.ttsu.app/)** - Japanese book reader that supports EPUB and HTMLZ. Text is displayed in 縦書き (vertical text) by default. This is one of the best options for an authentic experience reading Japanese books.
 #### Android apps
-- **[※ Hoshi Reader Android](https://github.com/HuangAntimony/Hoshi-Reader-Android**)** - Android port of the beautiful iOS Hoshi Reader, has first-class support for 縦書き and Yomitan dictionaries, and many other awesome features. 
+- **[※ Hoshi Reader Android](https://github.com/HuangAntimony/Hoshi-Reader-Android)** - Android port of the beautiful iOS Hoshi Reader, has first-class support for 縦書き and Yomitan dictionaries, and many other awesome features. 
 - [Microsoft Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary&hl=en) - Fastest browser on Android for Yomitan. Great paired with Ankiconnect Android. 
 - [jidoujisho](https://github.com/lrorpilla/jidoujisho) - A mobile video player, reader assistant and card creation toolkit for Android.  
 #### iOS apps
