@@ -21,7 +21,7 @@ Open the app and you will see the "Import EPUB" button, this is how you'll impor
 
 This will open the file picker, select an EPUB file to import your book.  
 ![img](img/hoshireader_android_2.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
-By default your books will appear as "Unshelved". The folder icon in the top-right is how you can manage your *Shelves*. This is useful for keeping categorizing your books (plan to read, high priority, low priority, dropped, on hold, completed etc.)  
+By default your books will appear as "Unshelved". The folder icon in the top-right is how you can manage your *Shelves*. This is useful for categorizing your books (plan to read, high priority, low priority, dropped, on hold, completed etc.)  
 
 To set up the pop-up dictionary, go to *Settings* then "Dictionaries". To import from .zip, tap the + in the top-right corner. Hoshi Reader can automatically fetch the latest version of JMdict with the "Download Recommended Dictionaries" option.  
 ![img](img/hoshireader_android_3.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
