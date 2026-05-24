@@ -1,7 +1,7 @@
 # Mobile Reading Setup
 
 - [(Android) Hoshi Reader](https://github.com/HuangAntimony/Hoshi-Reader-Android)
-- [(iOS) Hoshi Reader](https://apps.apple.com/us/app/hoshi-reader/id6758244332)
+- [(iOS) Hoshi Reader](https://apps.apple.com/app/hoshi-reader/id6758244332)
 - [(Android) PopLingo — OCR lookups in any app (manga, visual novels, games)](https://play.google.com/store/apps/details?id=com.aktaris.chattranslator)
 - [Manatan - recommended for manga](#manatan-all-in-one-anime-manga-and-novels)
 
@@ -60,11 +60,83 @@ Hoshi Reader will automatically add the *Local* source and prefer it over the de
 
 You are done!  
 ## iOS
-### Hoshi Reader
 
-Hoshi Reader, the best ッツ+Yomitan+mining alternative for iOS is now available on the [App Store](https://apps.apple.com/us/app/hoshi-reader/id6758244332) for devices running iOS 18 or later.  
+Hoshi Reader for iOS is available directly from the [App Store](https://apps.apple.com/app/hoshi-reader/id6758244332) for devices on iOS 18 or later.
 
+Open the app and you will see a plus in the top right corner. Press on it and it will open a file picker from which you can import your epub files.
 
+![img](img/hoshireader_ios_1.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+Additionally you can directly share books to Hoshi Reader when downloading books from e.g. Discord. Simply tap on *Open in Hoshi* or tap on more/the share button to choose Hoshi from the list of apps.
+
+![img](img/hoshireader_ios_2.png){: style="max-height: 400px; width: auto; display: block; margin: 0 auto;" }
+
+Hoshi Reader does not include any dictionaries out of the box. Navigate to *Settings* → *Dictionaries* to import your own Yomitan dictionaries or download a set of recommended dictionaries (JMdict, JMnedict, Jiten) by pressing on the button. You can reorder dictionaries by dragging and delete dictionaries by swiping left.
+
+![img](img/hoshireader_ios_3.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+Open a book and tap on a word to look it up.
+
+![img](img/hoshireader_ios_4.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+You can configure the reader and popup to your liking by pressing on the context menu in the bottom right corner and choosing *Appearance*.
+
+![img](img/hoshireader_ios_5.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+### Anki setup
+
+Mining requires either the official, paid [AnkiMobile](https://apps.apple.com/app/ankimobile-flashcards/id373493387) app or an AnkiConnect instance hosted from a PC.
+#### AnkiMobile
+
+In Hoshi Reader go to *Settings* → *Anki*. Press on *Fetch decks and models from Anki*. You will be redirected to AnkiMobile. AnkiMobile will ask whether you allow Hoshi Reader to request your decks and notetypes, press *OK*.
+
+You should be redirected back to Hoshi Reader. Choose your Anki deck and notetype and fill out the fields for your notetype at the bottom, you can find a reference for Lapis [here](https://github.com/donkuri/lapis#how-to-use-lapis).
+
+AnkiMobile does not provide a good way to check your collection for duplicates. You can however import a backup of your collection or deck to allow Hoshi Reader to check for duplicates.
+
+To create a backup, open AnkiMobile and either tap on *Add/Export* → *Export Collection* in the bottom left corner, or swipe right on a deck and tap on *Export*, depending on the scope you want duplicates to be checked in. 
+
+Untick *Include media* and press on *Export to Share Sheet*. You should be able to choose Hoshi Reader from the list of apps. Hoshi Reader will now check for duplicates in the deck/collection in that backup and automatically add words you mine to it as well. 
+
+If you mine on any other devices, it's recommended to import a fresh backup periodically to make sure it stays in sync.
+
+![img](img/hoshireader_ios_6.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+#### AnkiConnect
+
+If you don't have access to AnkiMobile, you can alternatively use Anki and [AnkiConnect](https://ankiweb.net/shared/info/2055492159) from your PC.
+
+To set this up first of all make sure you have AnkiConnect installed in Anki. In Anki navigate to *Tools* → *Add-ons*. Choose AnkiConnect and press on *Config* in the bottom right corner.
+
+Change the `webBindAddress` to `0.0.0.0`. Restart Anki.
+
+![img](img/hoshireader_ios_7.png){: style="max-height: 700px; width: auto; display: block; margin: 0 auto;" }
+
+You will need the local IPv4 address of your PC. To find your PC's IPv4 address you can open *Settings* → *Network & internet* → *Wi-Fi* or *Ethernet* depending on your connection on Windows, or *Settings* → *Wi-Fi* → *Details* on the connected network on macOS. Scroll down to find the IPv4 address (not the router/gateway address).
+
+In Hoshi Reader navigate to *Settings* → *Advanced* → *AnkiConnect*. Tick *Use AnkiConnect* and type `http://localip:8765` into the address field.
+
+Tap on *Connect*, you will be asked to allow Hoshi Reader to find devices on local networks. Tap *Allow* and tap on *Connect* again. A Windows Defender Firewall window may show up on your PC asking you to allow Anki to communicate on your local network. Press *Allow access*. If you aren't connected yet you may have to tap on *Connect* again. 
+
+![img](img/hoshireader_ios_8.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+You can now follow the same steps to configure your deck and notetype in *Settings* → *Anki*. A backup is not needed when using AnkiConnect, duplicate checks will work out of the box. You will need to keep your PC on to mine cards.
+
+Add a card to Anki by tapping the **+** button in the dictionary pop-up. If you're using AnkiMobile, this will briefly jump to AnkiMobile and then jump back to Hoshi Reader.
+
+![img](img/hoshireader_ios_9.jpg){: style="max-height: 300px; width: auto; display: block; margin: 0 auto;" }
+
+### Local Audio
+
+Make sure you have around 13GB of space on your device during import.
+
+Download: [android.db](https://drive.google.com/file/d/1Fn11_nN04zM89yKFYBWVTi0Xpaf6I3qe/view)
+
+Navigate to *Settings* → *Advanced* → *Audio*. Scroll down to the bottom and enable Local Audio. Tap on *Import* and choose the *android.db*. The database is copied into app storage, so you can delete the copy from your Downloads folder (don't press on the delete button in the app).
+
+![img](img/hoshireader_ios_10.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+Hoshi Reader will automatically add the *Local* source and prefer it over the default source(s).  
+
+You are done!
 ## Android - PopLingo (OCR lookups in any app)
 
 PopLingo gives you instant **OCR** dictionary lookups in any app (manga, visual novels, games) - using Yomitan dictionaries.
