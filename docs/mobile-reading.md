@@ -1,347 +1,143 @@
 # Mobile Reading Setup
 
-- [Yomitan](https://microsoftedge.microsoft.com/addons/detail/yomitan-popup-dictionary/idelnfbbmikgfiejhgmddlbkfgiifnnn)
-- [An ebook reader with vertical text support](https://reader.ttsu.app/)
-- [AnkiConnect](https://github.com/AuroraWright/AnkiconnectAndroid/releases)
-- [(Optional) Local audio](https://github.com/yomidevs/local-audio-yomichan)
-- [PopLingo — OCR lookups in any app (manga, visual novels, games)](https://play.google.com/store/apps/details?id=com.aktaris.chattranslator)
-- [Manatan - all-in-one anime, manga, and novel app](#manatan-all-in-one-anime-manga-and-novels)
+- [(Android) Hoshi Reader](https://github.com/HuangAntimony/Hoshi-Reader-Android)
+- [(iOS) Hoshi Reader](https://apps.apple.com/app/hoshi-reader/id6758244332)
+- [(Android) PopLingo — OCR lookups in any app (manga, visual novels, games)](https://play.google.com/store/apps/details?id=com.aktaris.chattranslator)
+- [Manatan - recommended for manga](#manatan-all-in-one-anime-manga-and-novels)
 
-The two best options for browsers that support Yomitan on Android are **Edge Canary** and **Firefox**.  
-Whichever one you use mostly boils down to personal preference, but Edge Canary has much better performance, so this guide will walk you through the steps on getting Edge Canary set up on your Android device.  
-The main advantages of each option is as follows:  
+The best app currently for reading on a mobile device is **Hoshi Reader**, which has both iOS and Android versions. The Android version has first-class support for e-ink devices.
+
 ## Android
-The reading setup here uses ッツ in the browser with Yomitan support.   
-### Edge Canary  
-
-Advantages:  
-
-- it's faster than Firefox.  
-- it supports the entire Chrome extension ecosystem.   
-
-Disadvantages:  
-
-- As the name suggests, it's for beta testers so things can break with updates. (Solution: install a known-good version from .apk)   
-- Extra steps required to enable full extension support.  
-- Version 140 only supports Android 10 and above.  
-- Not open source, so "Required" diagnostic data is collected and sent to Microsoft. 
-### Firefox
-
-Advantages:
-
-- Yomitan is supported on the stable version and with no tinkering required. Things are less likely to break with updates.
-- Latest version still supports Android 8 and 9.
-- It's open source so you have more control over what data gets sent to Mozilla.
-
-Disadvantages:
-
-- It's slow. Like, really really slow on older devices. 
-- Colour picker is bad. Can't make a custom ッツ reader theme.
-- Only supports "Firefox for Android" extensions. A large number of extensions are still supported, and Yomitan works with no issues, but less extensions can be used nonetheless.
-
-## Setup (Edge Canary)
-These steps will use Edge Canary, version 139.0.3378.0, but if you want to use Firefox you can. The Yomitan and ッツ Reader experience is pretty much the same anyway.  
-
-??? info "Why not use the latest version from the Play Store?"
-    "Canary" means it is more unstable than Edge Beta and Edge Dev, so it includes bleeding-edge changes that are unstable and experimental, and it is assumed that people who use Canary are signing up to be beta testers and are ready to expect their workflows to break, which was the case for many in version 142. To avoid this, we will be using Edge Canary, version 139.0.3378.0, which has been tested as working well by me, and it works on older devices running Android 8 and 9 too.  
-
-### Install Edge Canary
-1. Download an .apk of Edge Canary, version 139.0.3378.0, link I'm using here: [Download](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-edge-canary/microsoft-edge-canary-139-0-3378-0-release/)
-2. Open your device's file manager and tap on the downloaded .apk. Allow the permission for the file manager app to install unknown apps if prompted.
-3. Tap "Install" once permission is granted.
-4. Then go to the Google Play Store, find Edge Canary and in the 3 dots in top-right corner, turn off "Enable auto-update".
-
-### Set up Edge Canary
-Launch Edge Canary. In the out of box experience, tap "Not Now" to everything. 
-??? info "Recommended Settings for Edge"
-    1. In the New Tab page, tap the settings icon in the top-right corner. Disable everything here. Keep Shortcuts if you find them useful.  
-    2. Open the settings page by tapping the three-lines icon and then "Settings". 
-    3. In Privacy & security, disable optional diagnostic data in Diagnostics and Defender SmartScreen.  
-    4. In Microsoft services, disable Copilot, "personalize your browsing" and "improve quality of shortcuts".  
-    5. In Search, change the Search engine to Google.  
-    6. In New tab page, enable "Continue browsing where I left off". Disable Weather & News feed if the setting is available.  
-    7. In Languages, disable Microsoft Translator, and optionally change the language to Japanese or add Japanese as an app language.  
-    8. In Notifications, disable Allow notifications.    
-
-Here's how to set up Yomitan on Edge Canary:  
-
-Before continuing, please make sure your device is not running low on storage space.  
-
-1. Open the settings page by tapping the three-lines icon and then "Settings".
-2. Scroll down to "About Microsoft Edge", and tap the little "Privacy and Terms" link at the bottom. 
-3. Enable developer options by tapping "Edge Canary 139.0.3378.0" multiple times until you see a notification saying "Developer options are now enabled"  
-4. Go back to the Settings menu and go into Developer options.
-5. Find "Extension install by id" and copy and paste the Edge extension ID for Yomitan: ( `idelnfbbmikgfiejhgmddlbkfgiifnnn` ) and click OK, then "Add" when prompted.  
-6. Access Yomitan Settings by tapping the three-lines icon and then find "Extensions", then tap on Yomitan Popup Dictionary, then tap its cog settings icon.  
-7. You can import your preferred dictionaries here. All Yomitan dictionaries work on Android too, but please note that dictionary imports can take a really long time on mobile devices. Please be patient, make sure the screen stays on or stick to smaller dictionaries. Refer to [Yomitan Setup Tutorial](/yomichan) if you need help with Yomitan.  
-
-??? info "(Optional) Lookups outside the browser (manga, VNs, games, apps)"
-    Yomitan works inside the browser. For dictionary lookups **in any app**, use [**PopLingo**](#poplingo-ocr-lookups-in-any-app).
-
-??? info "(Optional) Custom CSS"
-    The custom CSS I personally use on my tablet is here, courtesy of Ruri:  
-    ```css
-            /* Colorways inspired from Rudnam, Marv.n, 10ten Japanese Reader and Colorhunt */
-
-    :root {
-    --text-color: #1d1a19;
-    --background-color: rgb(254, 254, 244);
-    --accent-color: #eee8d5;
-    --tag-color: #eee8d5;
-    --tag-dictionary-background-color: #eee8d5;
-    --tag-frequency-background-color: #eee8d5;
-    --tag-default-background-color: #eee8d5;
-    --tag-name-background-color: #eee8d5;
-    --tag-expression-background-color: #eee8d5;
-    --tag-popular-background-color: #79a9ec;
-    --tag-frequent-background-color: #4c8ce6;
-    --tag-archaism-background-color: #533642;
-    --link-color: blue;
-    --tag-border-color: #b1ad96;
-    }
-
-    /* Set the font to use */
-    * {
-    font-family: "Times New Roman","FOT-DNPShueiMinPr6N", serif;
-    }
-
-    body {
-    --input-background-color: color-mix(in srgb,
-        var(--background-color),
-        #fff 5%);
-    }
-
-
-    /* Tidy Tags */
-    .tag-label-content {
-    font-weight: 600 !important;
-    font-family: "Noto Serif", "Source Han Serif", serif;
-    }
-
-    /* Style tags (light-theme) */
-    html[data-theme="light"] .tag * {
-    color: var(--text-color) !important;
-    }
-    html[data-theme="light"] .tag[data-category="frequent"] * {
-    color: white !important;
-    }
-    html[data-theme="light"] ol .tag-label {
-    border: 1px var(--tag-border-color) solid;
-    background-color: var(--tag-default-background-color) !important;
-    }
-    html[data-theme="light"] .frequency-group-tag {
-    border-radius: 3.5px;
-    border: 1px var(--tag-border-color) solid !important;
-    }
-
-    /* Tidy definitions */
-    .definition-list {
-    padding: 0;
-    }
-    .entry .definition-item {
-    display: block;
-    margin-bottom: 5px;
-    border-bottom: 1px solid;
-    margin: 0 calc(0px - var(--entry-horizontal-padding));
-    padding: 5px calc(var(--entry-horizontal-padding)) 5px calc(var(--entry-horizontal-padding));
-
-    /* Only show the first PA Dict  */
-    li.pronunciation-group:first-child~* {
-    display: none;
-    }
-
-    ol.pronunciation-group-list:not([data-count="1"]) {
-    list-style: none;
-    padding: 0;
-    }
-
-    /* Show on hover */
-    li.pronunciation-group:first-child:has(.tag:hover)~* {
-    display: block;
-    }
-    /* Only shows the first 2 frequency lists */
-    span.frequency-group-item:nth-child(n + 3) {
-    display: none;
-    }
-    /* Show on hover */
-    span.frequency-group-item:first-child:hover ~ * {
-    transition: all 1s ease-out;
-    display: inline-block;
-    }
-
-    /* Don't show progress bar on top */
-    .top-progress-bar-container {
-    display: none;
-    }
-
-    /* Hides Scrollbar */
-    ::-webkit-scrollbar {
-    display: none;
-    }
-
-    /* remove misc dict classifications/codepoints/stats */
-    .kanji-glyph-data > tbody > tr:nth-child(n + 3) {
-    display: none;
-    }
-
-    /* remove stroke diagram, freq, header for next entries */
-    div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-container,
-    div.entry[data-type='kanji']:nth-child(n + 2) [data-section-type='frequencies'],
-    div.entry[data-type='kanji']:nth-child(n + 2) table.kanji-glyph-data > tbody > tr:first-child {
-    display: none;
-    }
-
-    /* remove 'No data found' */
-    .kanji-info-table-item-value-empty {
-    display: none;
-    }
-
-    /* reduce extra padding */
-    .kanji-glyph-data,
-    div.entry[data-type='kanji'],
-    div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-data > tbody > tr > *,
-    .kanji-glyph-data dl.kanji-readings-japanese,
-    div.entry[data-type='kanji']:nth-child(n + 2)
-    .kanji-glyph-data
-    dl.kanji-readings-chinese[data-count='0'] {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    margin-bottom: 0em;
-    margin-top: 0 !important;
-    }
-    /* remove horizontal lines */
-    .entry + .entry[data-type='kanji'],
-    div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > tr > * {
-    border-top: none !important;
-    }
-    /* change decimal list */
-    .kanji-gloss-list {
-    list-style-type: circle;
-    }
-
-
-    .kanji-tag-list {
-    padding-bottom: 3px;
-    }
-
-    .kanji-glyph-data {
-    margin-top: 10px !important;
-    }
-
-    table th {
-    font-size: 1.2em !important;
-    }
-    table dd {
-    font-size: 1.3em !important;
-    }
-
-    /* Don't select Furigana on top of words */
-    ruby rt {
-    user-select: none;
-    }
-
-
-    /* Only shows the first 3 frequency lists */
-    span.frequency-group-item:nth-child(n + 4) {
-    display: none;
-    }
-    /* Show on hover */
-    span.frequency-group-item:first-child:hover ~ * {
-    transition: all 1s ease-out;
-    display: inline-block;
-    }
-
-    ```
-
-## Ebook reader 
-
-You can import .epub files into [ッツ Reader](https://reader.ttsu.app/). It is great, supports vertical text and Yomitan works fine. You can find .epub files for Japanese books [here](https://learnjapanese.moe/resources/#novels-and-literary-texts).  
-The default settings for Yomitan and ッツ will do, no further tweaking and setup is necessary. But one feature I personally always disable is "Blur Image".  
-
-
-### Tips
-- Make sure your device does not run out of space. When your device is low on space, Edge Canary will delete browser & extension data and cache to save space. This works just like it does on Windows when your C: drive is full.  
-- You can add ッツ reader to your device's home screen by navigating to the webpage, tapping the three-lines icon on Edge, then go to "Add to phone" and press "Install".  
-
-
-## AnkiConnect
-
-You can set up AnkiConnect on your Android device so you can create Anki cards on your mobile device just as you would on your computer! This is very useful, here's how to set it up:  
-
-### Setup  
-Install AnkiDroid from the Google Play Store [here](https://play.google.com/store/apps/details?id=com.ichi2.anki).  
-Install Ankiconnect Android from the .apk file [here](https://github.com/AuroraWright/AnkiconnectAndroid/releases).  
-
-First, you need to install AnkiDroid and make sure it is set up with your decks synced already.  
-
-Then, you need to give Ankiconect Android the "appear on top" permission. 
-
-1. Launch Ankiconnect Android, access the settings page by tapping the settings icon in the top-right corner.
-2. Tap on the Access Overlay Permissions option. 
-3. Enable access for Ankiconnect Android.
-
-Then, launch Ankiconnect Android and press "Start Service", when the service is started, you should see a persistent notification from Ankiconnect Android in your status bar. AnkiConnect will be listening on port 8765.  
-
-Then you can enable Anki Integration in Yomitan. No extra tinkering is required. You can then configure your card format as usual in "Configure Anki flashcards."  
-
-!!! warning "Battery optimizations"
-    Some Android devices (especially Chinese ones) may kill the Ankiconnect Android process in the background. This doesn't happen on all devices but if this happens to you, please disable all battery optimizations for the Ankiconnect Android app. More information can be found at [Don't kill my app!](https://dontkillmyapp.com/)  
- 
-## Local audio
-
-Note: the local audio database uses 5.79GB of space on your device. Please ensure your device has sufficient space to not be out of space when the local audio database is imported to your device.   
-
-You will need to use a computer with Android Debugging Bridge (ADB) for this step, as you cannot access the `Internal Storage/Android/data` directories and their contents on newer Android versions (11 and newer).  
-But if you are on an older version (10 and older) you can access `Internal Storage/Android/data/com.kamwithk.ankiconnectandroid/files/` and the files within it without a computer, so on those versions, you don't need to use a computer for this.  
-
-First, download the local audio database for Android [here](https://drive.google.com/file/d/1Fn11_nN04zM89yKFYBWVTi0Xpaf6I3qe/view), usually you would generate this yourself, but for your convenience I've uploaded the generated database already. If you would like to do that manually, see [here](https://github.com/KamWithK/AnkiconnectAndroid?tab=readme-ov-file#additional-instructions-local-audio).     
-
-### Local audio transfer (using a computer)  
-
-**Close Ankiconnect Android fully before proceeding.**  
-
-Connect your Android device to your PC using a USB cable. This may require drivers.  
-On your Android device, open the status bar and click on "Charging device with USB", and change "Charging Only" to "File transfer/Android Auto".  
-
-On the PC, open the internal storage of your device.
-Navigate to: `Android/data/com.kamwithk.ankiconnectandroid/files`
-
-Copy and paste the `android.db` file here.
-
-The full path of the file should now be:
-```
-Android/data/com.kamwithk.ankiconnectandroid/files/android.db
-```
-
-
-Now, launch Ankiconnect Android and start the service.  
-
-## Optional: Forvo online audio
-
-Requires no extra space on the device, so it is useful if you don't have enough space on your device for the local audio database.    
-
-Add this as the Forvo API key:  
-```
-d6a0d68b18fbcf26bcbb66ec20739492
-```
-The Yomitan Custom URL (JSON) you need is this:  
-
-```
-http://localhost:8765/?term={term}&reading={reading}
-```
-
-
-### Yomitan Settings  
-With the Ankiconnect Android service running, go to Yomitan Settings, and in "Audio", go on "Configure audio playback sources".
-Remove the other audio sources such as JapanesePod101, and configure the local audio source with the following settings:
-
-| Type    | URL |
-| -------- | ------- |
-| Custom URL **(JSON)**  | http://localhost:8765/localaudio/get/?term={term}&reading={reading}    |
-
-Please note that `Custom URL` and `Custom URL (JSON)` are different things, and this will only work with `Custom URL (JSON)`
-
-## PopLingo (OCR lookups in any app)
+
+Download Hoshi Reader [here](https://github.com/HuangAntimony/Hoshi-Reader-Android/releases) - it is currently only available as an .apk, so you would need to sideload it.  
+
+1. Download the .apk file, then open your device's file manager and tap on the downloaded .apk.  
+2. Allow the permission for the file manager app to install unknown apps if prompted.
+3. Tap "Install" once permission is granted.  
+
+![img](img/hoshireader_android_1.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+
+Open the app and you will see the "Import EPUB" button, this is how you'll import a book into Hoshi Reader.
+
+This will open the file picker, select an EPUB file to import your book.  
+![img](img/hoshireader_android_2.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+By default your books will appear as "Unshelved". The folder icon in the top-right is how you can manage your *Shelves*. This is useful for categorizing your books (plan to read, high priority, low priority, dropped, on hold, completed etc.)  
+
+To set up the pop-up dictionary, go to *Settings* then "Dictionaries". To import from .zip, tap the + in the top-right corner. Hoshi Reader can automatically fetch the latest version of JMdict with the "Download Recommended Dictionaries" option.  
+![img](img/hoshireader_android_3.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+Start reading by tapping on your imported book in *Books*.  
+
+Tap on a word to trigger the pop-up dictionary.  
+![img](img/hoshireader_android_4.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+You can adjust the appearance of the reader by tapping the settings button in the bottom-right corner. You can also adjust the size of the dictionary popup in this menu, at the bottom.  
+![img](img/hoshireader_android_5.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+### Anki setup
+
+This requires [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki) to be installed.  
+
+In Hoshi Reader, go to *Settings* → *Anki* → tap *Fetch* in AnkiDroid. Allow the permission when prompted.  
+
+Then, choose the Anki deck.  
+![img](img/hoshireader_android_6.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+The card type "Model" will automatically be configured for Lapis, which is the recommended card type. The fields will also be automatically configured. For most people, the Anki setup is complete at this point.  
+
+
+You can then add Anki cards by opening a book, tapping a word to look it up then pressing the **+** button in the dictionary pop-up  
+
+![img](img/hoshireader_android_7.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+### Local Audio
+
+Note: the local audio database uses 5.79GB of space on your device. Please ensure your device has sufficient space to not be out of space when the local audio database is imported to your device.
+
+Download: [android.db](https://drive.google.com/file/d/1Fn11_nN04zM89yKFYBWVTi0Xpaf6I3qe/view)  
+
+
+Setting up local audio is easy. You just need to import the android.db file. 
+
+Set it up: *Settings* → *Advanced* → *Audio* → Local Audio: Enable → tap "Import" and pick the `android.db` file.  
+![img](img/hoshireader_android_8.jpg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }  
+Hoshi Reader will automatically add the *Local* source and prefer it over the default source(s).  
+
+You are done!  
+## iOS
+
+Hoshi Reader for iOS is available directly from the [App Store](https://apps.apple.com/app/hoshi-reader/id6758244332) for devices on iOS 18 or later.
+
+Open the app and you will see a plus in the top right corner. Press on it and it will open a file picker from which you can import your epub files.
+
+![img](img/hoshireader_ios_1.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+Additionally you can directly share books to Hoshi Reader when downloading books from e.g. Discord. Simply tap on *Open in Hoshi* or tap on more/the share button to choose Hoshi from the list of apps.
+
+![img](img/hoshireader_ios_2.png){: style="max-height: 400px; width: auto; display: block; margin: 0 auto;" }
+
+Hoshi Reader does not include any dictionaries out of the box. Navigate to *Settings* → *Dictionaries* to import your own Yomitan dictionaries or download a set of recommended dictionaries (JMdict, JMnedict, Jiten) by pressing on the button. You can reorder dictionaries by dragging and delete dictionaries by swiping left.
+
+![img](img/hoshireader_ios_3.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+Open a book and tap on a word to look it up.
+
+![img](img/hoshireader_ios_4.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+You can configure the reader and popup to your liking by pressing on the context menu in the bottom right corner and choosing *Appearance*.
+
+![img](img/hoshireader_ios_5.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+### Anki setup
+
+Mining requires either the official, paid [AnkiMobile](https://apps.apple.com/app/ankimobile-flashcards/id373493387) app or an AnkiConnect instance hosted from a PC.
+#### AnkiMobile
+
+In Hoshi Reader go to *Settings* → *Anki*. Press on *Fetch decks and models from Anki*. You will be redirected to AnkiMobile. AnkiMobile will ask whether you allow Hoshi Reader to request your decks and notetypes, press *OK*.
+
+You should be redirected back to Hoshi Reader. Choose your Anki deck and notetype and fill out the fields for your notetype at the bottom, you can find a reference for Lapis [here](https://github.com/donkuri/lapis#how-to-use-lapis).
+
+AnkiMobile does not provide a good way to check your collection for duplicates. You can however import a backup of your collection or deck to allow Hoshi Reader to check for duplicates.
+
+To create a backup, open AnkiMobile and either tap on *Add/Export* → *Export Collection* in the bottom left corner, or swipe right on a deck and tap on *Export*, depending on the scope you want duplicates to be checked in. 
+
+Untick *Include media* and press on *Export to Share Sheet*. You should be able to choose Hoshi Reader from the list of apps. Hoshi Reader will now check for duplicates in the deck/collection in that backup and automatically add words you mine to it as well. 
+
+If you mine on any other devices, it's recommended to import a fresh backup periodically to make sure it stays in sync.
+
+![img](img/hoshireader_ios_6.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+#### AnkiConnect
+
+If you don't have access to AnkiMobile, you can alternatively use Anki and [AnkiConnect](https://ankiweb.net/shared/info/2055492159) from your PC.
+
+To set this up first of all make sure you have AnkiConnect installed in Anki. In Anki navigate to *Tools* → *Add-ons*. Choose AnkiConnect and press on *Config* in the bottom right corner.
+
+Change the `webBindAddress` to `0.0.0.0`. Restart Anki.
+
+![img](img/hoshireader_ios_7.png){: style="max-height: 700px; width: auto; display: block; margin: 0 auto;" }
+
+You will need the local IPv4 address of your PC. To find your PC's IPv4 address you can open *Settings* → *Network & internet* → *Wi-Fi* or *Ethernet* depending on your connection on Windows, or *Settings* → *Wi-Fi* → *Details* on the connected network on macOS. Scroll down to find the IPv4 address (not the router/gateway address).
+
+In Hoshi Reader navigate to *Settings* → *Advanced* → *AnkiConnect*. Tick *Use AnkiConnect* and type `http://localip:8765` into the address field.
+
+Tap on *Connect*, you will be asked to allow Hoshi Reader to find devices on local networks. Tap *Allow* and tap on *Connect* again. A Windows Defender Firewall window may show up on your PC asking you to allow Anki to communicate on your local network. Press *Allow access*. If you aren't connected yet you may have to tap on *Connect* again. 
+
+![img](img/hoshireader_ios_8.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+You can now follow the same steps to configure your deck and notetype in *Settings* → *Anki*. A backup is not needed when using AnkiConnect, duplicate checks will work out of the box. You will need to keep your PC on to mine cards.
+
+Add a card to Anki by tapping the **+** button in the dictionary pop-up. If you're using AnkiMobile, this will briefly jump to AnkiMobile and then jump back to Hoshi Reader.
+
+![img](img/hoshireader_ios_9.jpg){: style="max-height: 300px; width: auto; display: block; margin: 0 auto;" }
+
+### Local Audio
+
+Make sure you have around 13GB of space on your device during import.
+
+Download: [android.db](https://drive.google.com/file/d/1Fn11_nN04zM89yKFYBWVTi0Xpaf6I3qe/view)
+
+Navigate to *Settings* → *Advanced* → *Audio*. Scroll down to the bottom and enable Local Audio. Tap on *Import* and choose the *android.db*. The database is copied into app storage, so you can delete the copy from your Downloads folder (don't press on the delete button in the app).
+
+![img](img/hoshireader_ios_10.png){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+Hoshi Reader will automatically add the *Local* source and prefer it over the default source(s).  
+
+You are done!
+## Android - PopLingo (OCR lookups in any app)
 
 PopLingo gives you instant **OCR** dictionary lookups in any app (manga, visual novels, games) - using Yomitan dictionaries.
 
@@ -363,11 +159,6 @@ PopLingo gives you instant **OCR** dictionary lookups in any app (manga, visual 
     - **High contrast** (dark text on a light background) improves accuracy.
     - If results look off, **zoom in** a bit and try again.
     - OCR struggles with **blurry images** or **very stylized fonts**.
-
-## iOS
-### Hoshi Reader
-
-Hoshi Reader, the best ッツ+Yomitan+mining alternative for iOS is now available on the [App Store](https://apps.apple.com/us/app/hoshi-reader/id6758244332) for devices running iOS 18 or later.  
 
 ## Manatan (all-in-one anime, manga, and novels)
 
