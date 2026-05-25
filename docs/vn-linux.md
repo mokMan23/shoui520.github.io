@@ -2,8 +2,8 @@
 
 Pick your poison:
 === "Virtual Machine"
-	!!! warning "Graphics performance."
-		Some VNs will struggle to keep a consistent frame rate, will lag/have bad input latency. This requires tinkering with the chosen video adapter. See the [video adapters](#video-adapters) section.
+	!!! warning "Graphics performance"
+		Virtualization Software has **terrible** 3D acceleration, not designed for games. There *are* [workarounds](#video-adapters), but if your VN doesn't work with Wine (most likely due to missing dependencies and/or DRM), your best option is dual booting, or [GPU passthrough](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF) (for advanced users!).
  
 Japanese visual novels rarely require newer versions of Windows. For example, I got the latest 美少女万華鏡 running on Windows 8.1, a game that states Windows 10/11 as supported. With some exceptions, everything should work on 32-bit Vista & later.
 
