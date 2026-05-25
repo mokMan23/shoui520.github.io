@@ -5,109 +5,109 @@ Pick your poison:
 	!!! warning "Graphics performance"
 		Virtualization Software has **terrible** 3D acceleration, not designed for games. There *are* [workarounds](#video-adapters), but if your VN doesn't work with Wine (most likely due to missing dependencies and/or DRM), your best option is dual booting, or [GPU passthrough](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF) (for advanced users!).
  
-Japanese visual novels rarely require newer versions of Windows. For example, I got the latest 美少女万華鏡 running on Windows 8.1, a game that states Windows 10/11 as supported. With some exceptions, everything should work on 32-bit Vista & later.
+	Japanese visual novels rarely require newer versions of Windows. For example, I got the latest 美少女万華鏡 running on Windows 8.1, a game that states Windows 10/11 as supported. With some exceptions, everything should work on 32-bit Vista & later.
 
-**Windows 7 32-bit** is recommended for DirectX 11 support, along with being lightweight. If you need an ISO, you may obtain one [here](https://massgrave.dev/genuine-installation-media) (If unsure, download Enterprise editions.)
+	**Windows 7 32-bit** is recommended for DirectX 11 support, along with being lightweight. If you need an ISO, you may obtain one [here](https://massgrave.dev/genuine-installation-media) (If unsure, download Enterprise editions.)
 
-!!! tip "To skip downloading Language Packs & changing Locales, download a Japanese ISO."
+	!!! tip "To skip downloading Language Packs & changing Locales, download a Japanese ISO."
 
-Activating Windows is easy. If you are asked for a product key during install, simply click "Next" (Windows Vista/7) or "I don't have a product key" (Windows 8+) to bypass it.
-Post-install, you can activate using [MAS](https://massgrave.dev/#activation-methods)' traditioanl method.
+	Activating Windows is easy. If you are asked for a product key during install, simply click "Next" (Windows Vista/7) or "I don't have a product key" (Windows 8+) to bypass it.
+	Post-install, you can activate using [MAS](https://massgrave.dev/#activation-methods)' traditioanl method.
 
-### 1. Install VirtualBox
+	### 1. Install VirtualBox
 
-!!! warning "If you've configured Secure Boot, you need to [sign & enroll](https://wiki.archlinux.org/title/VirtualBox#Sign_modules) your own keys. Some distributions do this automatically (most notably, Fedora)."
+	!!! warning "If you've configured Secure Boot, you need to [sign & enroll](https://wiki.archlinux.org/title/VirtualBox#Sign_modules) your own keys. Some distributions do this automatically (most notably, Fedora)."
 
-**Refer to your distribution's documentation!**  
+	**Refer to your distribution's documentation!**  
 
-Here are some examples with [Arch](https://wiki.archlinux.org/title/VirtualBox) & [Fedora](https://rpmfusion.org/Howto/VirtualBox)-based distributions.
+	Here are some examples with [Arch](https://wiki.archlinux.org/title/VirtualBox) & [Fedora](https://rpmfusion.org/Howto/VirtualBox)-based distributions.
 
-### 2. Set up the VM 
+	### 2. Set up the VM 
 
-!!! tip "If you have [KVM](https://wiki.archlinux.org/title/KVM) configured, enabling it (under General > System > Acceleration > "Paravirtualization Interface") is **strongly recommended.**"
+	!!! tip "If you have [KVM](https://wiki.archlinux.org/title/KVM) configured, enabling it (under General > System > Acceleration > "Paravirtualization Interface") is **strongly recommended.**"
 
-- Open VirtualBox and click the blue "New" button.  
+	- Open VirtualBox and click the blue "New" button.  
 
-- Select Windows ISO image you downloaded, and disable "Proceed with Unattended Installation".  Click "Finish", then click the orange "Settings" button with your VM selected. 
+	- Select Windows ISO image you downloaded, and disable "Proceed with Unattended Installation".  Click "Finish", then click the orange "Settings" button with your VM selected. 
 
-- Make sure to select the "Expert" tab, so every option is available.
+	- Make sure to select the "Expert" tab, so every option is available.
 
-- Next, navigate to the "Shared Folders" tab & create a new folder on your host system. As the name implies, this folder will be used for sharing between your host & "guest" system. Click the + folder icon, add said afforemtnioned new folder as the path. You may leave the other fields blank. Make sure to enable "Auto-mount" & "Make Global". You may also enable "Shared Clipboard" & "Drag-and-drop", though these may introduce additional security vulurnabilities.
+	- Next, navigate to the "Shared Folders" tab & create a new folder on your host system. As the name implies, this folder will be used for sharing between your host & "guest" system. Click the + folder icon, add said afforemtnioned new folder as the path. You may leave the other fields blank. Make sure to enable "Auto-mount" & "Make Global". You may also enable "Shared Clipboard" & "Drag-and-drop", though these may introduce additional security vulurnabilities.
 
-- Configure your VM further, or click "OK" & click the green "Start" button.
+	- Configure your VM further, or click "OK" & click the green "Start" button.
 
-Once Windows is installed, install Guest Additions through Devices > "Insert Guest Additions CD image...". Access your Shared Folder through "Network > VBOXSVR" in File Explorer.
+	Once Windows is installed, install Guest Additions through Devices > "Insert Guest Additions CD image...". Access your Shared Folder through "Network > VBOXSVR" in File Explorer.
 
-Download [WinCDEmu](https://wincdemu.sysprogs.org/) and drag it into your shared folder to access it from the VM. Install it.  
-Also install some redists:
+	Download [WinCDEmu](https://wincdemu.sysprogs.org/) and drag it into your shared folder to access it from the VM. Install it.  
+	Also install some redists:
 
-- [Microsoft Visual C++ 2015-2022 Redistributable (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
-- [DirectX End User Runtimes](https://www.guru3d.com/download/directx-end-user-runtimes-(june-2010)/)  
-- [Additional runtimes: Visual Cpp Redist All-in-One](https://github.com/abbodi1406/vcredist/releases) (grab the x86 only release)
+	- [Microsoft Visual C++ 2015-2022 Redistributable (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
+	- [DirectX End User Runtimes](https://www.guru3d.com/download/directx-end-user-runtimes-(june-2010)/)  
+	- [Additional runtimes: Visual Cpp Redist All-in-One](https://github.com/abbodi1406/vcredist/releases) (grab the x86 only release)
 
-<h2> <b>TIP</b>: If you experience <b>ANY</b> issues related to accessing/running/using/mounting files on the shared folder, then <u><b>COPY/MOVE</b></u> them to a <u>folder inside Windows</u> and try again.</h2>
+	<h2> <b>TIP</b>: If you experience <b>ANY</b> issues related to accessing/running/using/mounting files on the shared folder, then <u><b>COPY/MOVE</b></u> them to a <u>folder inside Windows</u> and try again.</h2>
 
-The instructions for installing VNs on Windows are detailed in my [Visual novels on Windows](/vn-win) guide. You can now follow that to get your VNs installed.
+	The instructions for installing VNs on Windows are detailed in my [Visual novels on Windows](/vn-win) guide. You can now follow that to get your VNs installed.
 
-For Textractor, you will need to port forward port `6677` to use the websocket from Linux. Power off the machine and run this (replace YOUR_VM_NAME with your VM name):
-```bash
-VBoxManage modifyvm "YOUR_VM_NAME" --natpf1 "vnport,tcp,,6677,,6677"
-```
+	For Textractor, you will need to port forward port `6677` to use the websocket from Linux. Power off the machine and run this (replace YOUR_VM_NAME with your VM name):
+	```bash
+	VBoxManage modifyvm "YOUR_VM_NAME" --natpf1 "vnport,tcp,,6677,,6677"
+	```
 
-Now you can follow the [Learning Japanese with VNs](/vn) guide.  
+	Now you can follow the [Learning Japanese with VNs](/vn) guide.  
 
-### 3. Windowed Mode
+	### 3. Windowed Mode
 
-Here's how I recommend you play your VNs:
+	Here's how I recommend you play your VNs:
 
-- Disable Auto-resize guest display (View > Auto-resize guest display)
-- Resize the VM (View > Virtual Screen 1) according to the aspect ratio of your visual novel. (4:3→ 1024x768, 16:9→1280x720 or the highest resolution the VN supports)  
-- Hide the bottom toolbar. Machine > Settings > Expert > User Interface, uncheck the box for the bottom toolbar.
-- Fullscreen (全画面表示/フルスクリーン) the visual novel (should be in the visual novel's options menu).  
-- Enable Scaled Mode (View > Scaled Mode) (toggle shortcut: right ctrl+C). The shortcut for the menu is right ctrl+Home
+	- Disable Auto-resize guest display (View > Auto-resize guest display)
+	- Resize the VM (View > Virtual Screen 1) according to the aspect ratio of your visual novel. (4:3→ 1024x768, 16:9→1280x720 or the highest resolution the VN supports)  
+	- Hide the bottom toolbar. Machine > Settings > Expert > User Interface, uncheck the box for the bottom toolbar.
+	- Fullscreen (全画面表示/フルスクリーン) the visual novel (should be in the visual novel's options menu).  
+	- Enable Scaled Mode (View > Scaled Mode) (toggle shortcut: right ctrl+C). The shortcut for the menu is right ctrl+Home
 
-Add a KDE window rule like this to "lock" the VirtualBox VM scaled window:
+	Add a KDE window rule like this to "lock" the VirtualBox VM scaled window:
 
-Example, for 4:3
-![Image](img/vnlinux_vmwindowrule4x3.png)
-Example, for 16:9
-![Image](img/vnlinux_vmwindowrule16x9.png)
+	Example, for 4:3
+	![Image](img/vnlinux_vmwindowrule4x3.png)
+	Example, for 16:9
+	![Image](img/vnlinux_vmwindowrule16x9.png)
 
-### Troubleshooting
+	### Troubleshooting
 
-#### Video adapters
-Some games really don't like the VBoxSVGA video adapter. They will either: crash, refuse to start, be unable to go full screen. For these games, you need to switch to the VMSVGA adapter.  
+	#### Video adapters
+	Some games really don't like the VBoxSVGA video adapter. They will either: crash, refuse to start, be unable to go full screen. For these games, you need to switch to the VMSVGA adapter.  
 
-* VBoxSVGA: default, supports 3D acceleration. Potentially the fastest speed for GPU demanding VNs. Bad compatibility.
-* VBoxVGA: better compatibility, good speed depending on engine.
-* VMSVGA: best compatibility. supports higher 4:3 resolutions. Recommended for older VNs.
+	* VBoxSVGA: default, supports 3D acceleration. Potentially the fastest speed for GPU demanding VNs. Bad compatibility.
+	* VBoxVGA: better compatibility, good speed depending on engine.
+	* VMSVGA: best compatibility. supports higher 4:3 resolutions. Recommended for older VNs.
 
-### Power saving
+	### Power saving
 
-You can conserve power by restricting VirtualBox's CPU useage to a single core. Even if you run a single-core VM, VirtualBox still runs multithreaded on the host, causing unnecessary battery drain.
+	You can conserve power by restricting VirtualBox's CPU useage to a single core. Even if you run a single-core VM, VirtualBox still runs multithreaded on the host, causing unnecessary battery drain.
 
-You can force VirtualBox to run on a single core by using `taskset`.  
-To run your VirtualBox VM on the physical core 0 (1st core) and its hyperthreaded sibling, run:  
-```bash
-taskset -c 0,4 VirtualBoxVM --startvm "YourVMName"
-```  
+	You can force VirtualBox to run on a single core by using `taskset`.  
+	To run your VirtualBox VM on the physical core 0 (1st core) and its hyperthreaded sibling, run:  
+	```bash
+	taskset -c 0,4 VirtualBoxVM --startvm "YourVMName"
+	```  
 
-You should check how Linux sees your CPU topology with `lscpu -e`. For most processors on Linux, CPU 0 and CPU 4 correspond to the 1st physical core and its hyperthreaded sibling. Note that this differs from the Windows topology mapping (Windows equivalent is CPU 0 and CPU 1).  
+	You should check how Linux sees your CPU topology with `lscpu -e`. For most processors on Linux, CPU 0 and CPU 4 correspond to the 1st physical core and its hyperthreaded sibling. Note that this differs from the Windows topology mapping (Windows equivalent is CPU 0 and CPU 1).  
 
-```
-% lscpu -e    
-CPU SOCKET CORE L1d:L1i:L2:L3 ONLINE    MAXMHZ   MINMHZ      MHZ
-  0      0    0 0:0:0:0          yes 3600.0000 400.0000 799.9090
-  1      0    1 1:1:1:0          yes 3600.0000 400.0000 798.5420
-  2      0    2 2:2:2:0          yes 3600.0000 400.0000 799.9970
-  3      0    3 3:3:3:0          yes 3600.0000 400.0000 800.2590
-  4      0    0 0:0:0:0          yes 3600.0000 400.0000 800.1550
-  5      0    1 1:1:1:0          yes 3600.0000 400.0000 799.9570
-  6      0    2 2:2:2:0          yes 3600.0000 400.0000 800.0190
-  7      0    3 3:3:3:0          yes 3600.0000 400.0000 799.9650
-```
+	```
+	% lscpu -e    
+	CPU SOCKET CORE L1d:L1i:L2:L3 ONLINE    MAXMHZ   MINMHZ      MHZ
+	  0      0    0 0:0:0:0          yes 3600.0000 400.0000 799.9090
+	  1      0    1 1:1:1:0          yes 3600.0000 400.0000 798.5420
+	  2      0    2 2:2:2:0          yes 3600.0000 400.0000 799.9970
+	  3      0    3 3:3:3:0          yes 3600.0000 400.0000 800.2590
+	  4      0    0 0:0:0:0          yes 3600.0000 400.0000 800.1550
+	  5      0    1 1:1:1:0          yes 3600.0000 400.0000 799.9570
+	  6      0    2 2:2:2:0          yes 3600.0000 400.0000 800.0190
+	  7      0    3 3:3:3:0          yes 3600.0000 400.0000 799.9650
+	```
 
-With VirtualBox running on a single core, you trade speed for battery life.  
+	With VirtualBox running on a single core, you trade speed for battery life.  
 
 === "Wine"
 	!!! failure "Video cutscene playback"
