@@ -4,6 +4,7 @@
 - [(iOS) Hoshi Reader](https://apps.apple.com/app/hoshi-reader/id6758244332)
 - [(Android) PopLingo — OCR lookups in any app (manga, visual novels, games)](https://play.google.com/store/apps/details?id=com.aktaris.chattranslator)
 - [Manatan - recommended for manga](#manatan-all-in-one-anime-manga-and-novels)
+- [(Android) Chimahon](https://github.com/sohilsayed/chimahon)
 
 The best app currently for reading on a mobile device is **Hoshi Reader**, which has both iOS and Android versions. The Android version has first-class support for e-ink devices.
 
@@ -173,3 +174,54 @@ Manatan is an all-in-one app for anime, manga, and novels. It supports Desktop, 
 2. (If needed) add extension repos. You can add Mihon, Aniyomi, and Aidoku extension repos (for example: `https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json`).
 3. Tap **Install** on the source extensions you want.
 4. Open **Sources**, pick a title, then start reading or watching.
+
+## Chimahon (manga, novels, OCR)
+
+Chimahon is an Android manga and novel reader built on [Mihon](https://mihon.app) with dictionary support, on-device OCR, and Anki mining.
+
+- **Manga Reader**: Full Mihon extension support — access thousands of manga sources via community extensions.
+- **Novel Reader**: EPUB reader with tap-to-lookup.
+- **Local OCR**: On-device text recognition for manga pages — no internet needed.
+- **.mokuro**: support for pre-ocred manga.
+
+> For general usage instructions (adding extensions, browsing sources, library management), see the [Mihon Getting Started Guide](https://mihon.app/docs/guides/getting-started) — Chimahon inherits all of Mihon's core functionality.
+> You can add manga sources via the [Keiyoushi extensions repo](https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json).
+
+### Download
+
+Download the latest APK from [GitHub Releases](https://github.com/sohilsayed/chimahon/releases). Requires Android 8.0 or higher.
+
+### Setup
+
+Open *Settings* → *Dictionary* → to access all settings related to dictionaries and anki. For anki lapis is used as default card type.
+  
+<div style="display: flex; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="img/chimahon1.jpeg" style="max-height: 800px; width: auto; display: block; margin: 0 auto;" />
+  </div>
+  <div style="flex: 1;">
+    <img src="img/chimahon2.jpeg" style="max-height: 800px; width: auto; display: block; margin: 0 auto;" />
+  </div>
+  <div style="flex: 1;">
+    <img src="img/chimahon3.jpeg" style="max-height: 800px; width: auto; display: block; margin: 0 auto;" />
+  </div>
+</div>
+
+### Local Manga
+
+Tap the **+** icon in *Browse* → *Sources* to add a local manga image folder or archive (e.g. `.cbz`) files for offline reading. You can also select the `.mokuro` file directly alongside your manga.
+
+![img](img/chimahon4.jpeg){: style="max-height: 800px; width: auto; display: block; margin: 0 auto;" }
+
+### Mokuro
+
+Mokuro files (`.mokuro`) contain pre-processed OCR data for manga pages, enabling instant text lookups without running on-device OCR. There are two ways to use them:
+
+- **Local**: Place the `.mokuro` file next to your manga files:
+  - For archives (`.cbz`, `.zip`, `.rar`, `.cbr`, `.cb7`, `.tar`, `.cbt`): put `MangaName.mokuro` beside the archive file
+  - For image folders: put the `.mokuro` file inside the manga folder
+  Then enable OCR in the reader settings.
+- **Extension**: If you're using the mokuro extension, just enable OCR in the reader — no extra setup needed.
+
+For generating your own mokuro files, see the [mokuro](https://github.com/kha-white/mokuro) project.
+
