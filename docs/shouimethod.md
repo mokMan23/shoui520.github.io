@@ -577,7 +577,7 @@ The order you put your dicts is important, here is what I recommend for beginner
 1. JMdict Plaintext (Fanshi).zip
 2. 研究社　新和英大辞典　第５版
 3. Bunpro
-4. Dictionary of Japanese Grammar
+4. Dictionary of Japanese Grammar (日本語文法辞典)
 5. 実用日本語表現辞典  
 6. (everything else can be in whatever order.)
 
