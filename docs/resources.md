@@ -133,7 +133,7 @@ The websites below have the best collection but can be a pain to download from.
 - [Hameln](https://syosetu.org/) - Also similar to syosetsu.
 - [Aozora Bunko](https://www.aozora.gr.jp/) - read Japanese classics. Books go on here if the author has died more than 50 years ago.  
 - **[※ ッツ Ebook Reader](https://reader.ttsu.app/)** - Japanese book reader that supports EPUB and HTMLZ. Text is displayed in 縦書き (vertical text) by default. This is one of the best options for an authentic experience reading Japanese books.
-
+- [Yatsu Reader](https://app.yatsu.moe/library) - modern ッツ replacement 
 - [Japanese Media Recommendations List](https://docs.google.com/spreadsheets/d/1w42HEKEu2AzZg9K7PI0ma9ICmr2qYEKQ9IF4XxFSnQU/)
 - [Manatan](https://github.com/KolbyML/Manatan) - Read light novels/novels and EPUBs with instant dictionary lookups and Anki card generation. Supports Desktop, iOS, and Android.
 
